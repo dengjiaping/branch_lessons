@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout android:id="@+id/ll_all"
+                                     xmlns:android="http://schemas.android.com/apk/res/android"
+                                     xmlns:tools="http://schemas.android.com/tools"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="match_parent"
+                                     android:background="@color/white"
+                                     android:orientation="vertical"
+                                     tools:context="com.yidiankeyan.science.information.acitivity.ColumnContentListActivity">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:background="@color/white">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_return"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:paddingLeft="21px"
+            android:paddingRight="21px">
+
+            <ImageView
+                android:id="@+id/title_return"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/returns"/>
+
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.yidiankeyan.science.view.MarqueeTextView
+            android:id="@+id/maintitle_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="160px"
+            android:layout_weight="5"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="暂无标题"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#eeeeee"></View>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="35px"
+                android:layout_marginLeft="24px"
+                android:layout_marginRight="24px"
+                android:layout_marginTop="35px"
+                android:text=""
+                android:textColor="@color/black_33"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/img_avatar"
+                android:layout_width="match_parent"
+                android:layout_height="390px"
+                android:layout_marginLeft="24px"
+                android:layout_marginRight="24px"
+                android:scaleType="centerCrop"/>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="34px"
+                android:layout_marginLeft="24px"
+                android:layout_marginRight="24px"
+                android:layout_marginTop="34px">
+
+                <ImageView
+                    android:id="@+id/img_author_avatar"
+                    android:layout_width="56px"
+                    android:layout_height="56px"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:id="@+id/tv_author_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="24px"
+                    android:layout_toRightOf="@+id/img_author_avatar"
+                    android:textColor="#999999"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/tv_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="#999999"
+                    android:textSize="14sp"/>
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F8F8F8"
+                android:orientation="vertical"
+                android:paddingBottom="34px"
+                android:paddingTop="34px">
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="24px"
+                    android:paddingRight="24px">
+
+                    <com.zhy.autolayout.AutoFrameLayout
+                        android:id="@+id/fl_audio"
+                        android:layout_width="96px"
+                        android:layout_height="96px"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="24px">
+
+                        <ImageView
+                            android:id="@+id/img_content_avatar"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+
+                        <ImageView
+                            android:id="@+id/img_media_state"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/audio_click_play"/>
+                    </com.zhy.autolayout.AutoFrameLayout>
+
+                    <TextView
+                        android:id="@+id/tv_audio_title_desc"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/fl_audio"
+                        android:layout_weight="1"
+                        android:singleLine="true"
+                        android:textColor="#333333"
+                        android:textSize="17sp"/>
+
+                    <ImageView
+                        android:id="@+id/img_download"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="21px"
+                        android:src="@drawable/by_download_no"/>
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <SeekBar
+                    android:id="@+id/seekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32px"
+                    android:layout_weight="1"
+                    android:maxHeight="8px"
+                    android:minHeight="8px"
+                    android:progressDrawable="@drawable/seekbar_today_style"
+                    android:thumb="@drawable/shape_audio_seekbar_thumb"/>
+
+                <com.zhy.autolayout.AutoRelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24px"
+                    android:layout_marginRight="24px"
+                    android:layout_marginTop="22px">
+
+                    <TextView
+                        android:id="@+id/tv_curr_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="#999999"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:id="@+id/tv_total_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text=""
+                        android:textColor="#999999"
+                        android:textSize="12sp"/>
+                </com.zhy.autolayout.AutoRelativeLayout>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <TextView
+                android:id="@+id/tv_desc_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="34px"
+                android:layout_marginLeft="24px"
+                android:layout_marginTop="34px"
+                android:layout_toRightOf="@+id/fl_audio"
+                android:text=""
+                android:textColor="#333333"
+                android:textSize="17sp"
+                android:visibility="gone"/>
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_desc_content"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="40px"-->
+            <!--android:layout_marginLeft="24px"-->
+            <!--android:text=""-->
+            <!--android:textColor="#868686"-->
+            <!--android:textSize="14sp" />-->
+            <WebView
+                android:id="@+id/web_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></WebView>
+        </com.zhy.autolayout.AutoLinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_subscribe"
+        android:layout_width="match_parent"
+        android:layout_height="98px"
+        android:background="@color/defaultcolor"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+</com.zhy.autolayout.AutoLinearLayout>

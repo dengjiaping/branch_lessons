@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_one"
+            android:layout_width="224px"
+            android:layout_height="68px"
+            android:layout_marginRight="63px"
+            android:background="@drawable/shape_project_normal"
+            android:gravity="center"
+            android:text="航空航天"
+            android:textColor="#666666"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_two"
+            android:layout_width="224px"
+            android:layout_height="68px"
+            android:background="@drawable/shape_project_normal"
+            android:gravity="center"
+            android:text="航空航天"
+            android:textColor="#666666"
+            android:textSize="20sp" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_three"
+            android:layout_width="224px"
+            android:layout_height="68px"
+            android:layout_marginRight="15px"
+            android:background="@drawable/shape_project_normal"
+            android:gravity="center"
+            android:text="航空航天"
+            android:textColor="#666666"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_four"
+            android:layout_width="224px"
+            android:layout_height="68px"
+            android:layout_marginRight="15px"
+            android:background="@drawable/shape_project_normal"
+            android:gravity="center"
+            android:text="航空航天"
+            android:textColor="#666666"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_five"
+            android:layout_width="224px"
+            android:layout_height="68px"
+            android:background="@drawable/shape_project_normal"
+            android:gravity="center"
+            android:text="航空航天"
+            android:textColor="#666666"
+            android:textSize="20sp" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>

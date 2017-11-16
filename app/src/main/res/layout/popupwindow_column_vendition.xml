@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    >
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="29px"
+        android:layout_marginRight="29px"
+        android:layout_marginTop="22px"
+        >
+
+
+        <TextView
+            android:id="@+id/tv_scale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="购买本专栏并且进行分享，赚取高达订单金额的20%的佣金奖励~"
+            android:textColor="@color/black_33"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_column_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5px"
+            android:layout_marginTop="40px"
+            android:text="详情 >"
+            android:textColor="#ff5252"
+            android:textSize="14sp"
+            />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/ll_share_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_cancel"
+        android:background="#F2F2F2"
+        android:orientation="horizontal"
+        android:paddingTop="80px"
+        >
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_share_qq"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/img_share_qq"
+                android:layout_width="70px"
+                android:layout_height="70px"
+                android:src="@drawable/icon_column_poster"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:text="海报"
+                android:textColor="#353535"
+                android:textSize="12sp"
+                />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_share_wx"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/img_share_wx"
+                android:layout_width="70px"
+                android:layout_height="70px"
+                android:src="@drawable/icon_account_balance_wx"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:text="微信"
+                android:textColor="#353535"
+                android:textSize="12sp"
+                />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_friend_circle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/img_share_friend_circle"
+                android:layout_width="68px"
+                android:layout_height="68px"
+                android:src="@drawable/img_weixin_circle"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:text="朋友圈"
+                android:textColor="#353535"
+                android:textSize="12sp"
+                />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+
+        <ImageView
+            android:id="@+id/img_share_sina"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:src="@drawable/img_xinlang"
+            android:visibility="gone"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="66px"
+        android:background="#aba0a4"
+        ></View>
+
+    <TextView
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="98px"
+        android:layout_alignParentBottom="true"
+        android:background="#F2F2F2"
+        android:gravity="center"
+        android:text="取消"
+        android:textColor="#2d2d2d"
+        android:textSize="15sp"/>
+
+</com.zhy.autolayout.AutoLinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    android:id="@+id/ll_answer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.yidiankeyan.science.information.acitivity.AnswerTopDetailActivity">
+
+    <include layout="@layout/inc_title"></include>
+
+    <cn.finalteam.loadingviewfinal.ListViewFinalLoadMore
+        android:id="@+id/lv_answer_top_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#F2F2F2"
+        android:dividerHeight="20px"></cn.finalteam.loadingviewfinal.ListViewFinalLoadMore>
+
+</com.zhy.autolayout.AutoLinearLayout>

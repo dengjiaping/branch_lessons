@@ -1,0 +1,218 @@
+[
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_fade_in.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\umeng_socialize_fade_in.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_shareboard_animation_out.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\umeng_socialize_shareboard_animation_out.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_right.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\slide_in_from_right.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_shareboard_animation_in.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\umeng_socialize_shareboard_animation_in.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_in.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\push_top_in.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_win_content_fade_in.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\pop_win_content_fade_in.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\hold.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\hold.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_slide_in_from_bottom.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\umeng_socialize_slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_conversation_finish.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\pop_conversation_finish.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\push_bottom_in.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\start_fullscreen.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\jcvideoplayer_lib\\unspecified\\res\\anim\\start_fullscreen.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_play_rotate.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\anim_play_rotate.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_hint_finish.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\pop_hint_finish.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\quit_fullscreen.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\jcvideoplayer_lib\\unspecified\\res\\anim\\quit_fullscreen.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_enter_anim.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\pop_enter_anim.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\popup_alpha_out.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\popup_alpha_out.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\msg_add_pop_show.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\msg_add_pop_show.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_right.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\slide_out_to_right.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_out.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\push_bottom_out.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\msg_add_pop_finish.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\msg_add_pop_finish.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_marquee_in.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\anim_marquee_in.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\head_in.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\head_in.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_conversation_show.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\pop_conversation_show.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_hint_show.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\pop_hint_show.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_out.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\push_top_out.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_slide_out_from_bottom.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\umeng_socialize_slide_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_in2.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\push_top_in2.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\popup_alpha_in.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\popup_alpha_in.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_marquee_out.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\anim_marquee_out.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_left.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\slide_in_from_left.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\head_out.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\head_out.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_out2.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\push_top_out2.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_exit_anim.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\pop_exit_anim.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_left.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\slide_out_to_left.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_fade_out.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\umeng_socialize_fade_out.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_win_content_fade_out.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\anim\\pop_win_content_fade_out.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_slide_in_top.xml"
+    }
+]

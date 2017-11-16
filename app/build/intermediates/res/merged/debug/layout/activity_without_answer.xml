@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yidiankeyan.science.information.acitivity.WithoutAnswerActivity">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/inc_title"></include>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/title"
+        android:background="#CCCCCC"></View>
+
+    <TextView
+        android:id="@+id/tv_show_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100px"
+        android:text="您还没有登录" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/select_login_bg"
+        android:gravity="center"
+        android:minHeight="0px"
+        android:minWidth="0px"
+        android:paddingBottom="10px"
+        android:paddingLeft="20px"
+        android:paddingRight="20px"
+        android:paddingTop="10px"
+        android:text="快速登录"
+        android:textColor="@color/white"
+        android:textSize="34px" />
+
+</com.zhy.autolayout.AutoRelativeLayout>

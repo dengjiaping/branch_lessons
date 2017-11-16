@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_subscribe"
+    android:layout_width="wrap_content"
+    android:layout_height="75px"
+    android:minHeight="30.0dip"
+    android:minWidth="72.0dip">
+
+    <TextView
+        android:id="@+id/text_item"
+        android:layout_width="match_parent"
+        android:layout_height="75px"
+        android:layout_centerInParent="true"
+        android:background="@drawable/my_subscribe_item_bg"
+        android:gravity="center"
+        android:text="学术研究"
+        android:minHeight="22.0dip"
+        android:minWidth="72.0dip"
+        android:textColor="@color/subscribe_item_text_color"
+        android:textSize="11.0sp" />
+    <!-- android:layout_margin="5dip" -->
+
+    <ImageView
+        android:id="@+id/icon_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/channel_new"
+        android:visibility="gone" />
+
+</com.zhy.autolayout.AutoRelativeLayout>

@@ -1,0 +1,106 @@
+<com.zhy.autolayout.AutoFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="28px"
+                android:layout_marginTop="42px"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="66px"
+                android:paddingRight="66px">
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:id="@+id/btn_clsimgtxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/txtimgclass" />
+
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_clsaudio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/audioclass" />
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right">
+
+                    <ImageButton
+                        android:id="@+id/btn_clsvideo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/videoclass" />
+
+                </com.zhy.autolayout.AutoLinearLayout>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#CFCFCF"></View>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="22px"
+                android:layout_marginBottom="55px"
+                android:background="#F5F5F5"></View>
+
+            <com.yidiankeyan.science.view.ShowAllGridview
+                android:id="@+id/gridview_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25px"
+                android:layout_marginRight="25px"
+                android:background="#e4e4e4"
+                android:gravity="center"
+                android:horizontalSpacing="1px"
+                android:numColumns="4"
+                android:padding="1px"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="1px" />
+        </com.zhy.autolayout.AutoLinearLayout>
+    </ScrollView>
+    <!--<in.srain.cube.views.GridViewWithHeaderAndFooter-->
+    <!--android:id="@+id/gridview_bottom"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_marginLeft="25px"-->
+    <!--android:layout_marginRight="25px"-->
+    <!--android:gravity="center"-->
+    <!--android:numColumns="4"-->
+    <!--android:stretchMode="columnWidth"-->
+    <!--android:verticalSpacing="1px" />-->
+</com.zhy.autolayout.AutoFrameLayout>

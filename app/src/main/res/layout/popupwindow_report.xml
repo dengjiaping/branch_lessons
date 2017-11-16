@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="80px"
+        >
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_temp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_exit"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="-7dp"
+            android:background="@drawable/shape_custom_rmb_pop"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="举报"
+                android:textColor="@color/main_orange"
+                android:textSize="17sp"/>
+
+
+            <EditText
+                android:id="@+id/et_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="请输入标题"
+                android:paddingBottom="20px"
+                android:paddingLeft="10px"
+                android:paddingTop="20px"
+                android:singleLine="true"
+                android:textSize="10sp"/>
+
+            <EditText
+                android:id="@+id/et_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="请描述"
+                android:lines="4"
+                android:enabled="true"
+                android:gravity="start"
+                android:background="@drawable/editbackground"
+                android:paddingBottom="20px"
+                android:paddingLeft="10px"
+                android:paddingTop="20px"
+                android:textSize="10sp"/>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="400px"
+                android:layout_height="80px"
+                android:orientation="horizontal"
+                android:layout_marginTop="20px"
+                android:layout_marginBottom="20px"
+                >
+
+                <TextView
+                    android:id="@+id/tv_assign"
+                    android:layout_width="0px"
+                    android:layout_height="70px"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_orange_pressed"
+                    android:gravity="center"
+                    android:text="确定"
+                    android:textColor="@color/heione"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:id="@+id/tv_cancel"
+                    android:layout_width="0px"
+                    android:layout_height="70px"
+                    android:layout_marginLeft="10px"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_orange_pressed"
+                    android:gravity="center"
+                    android:text="取消"
+                    android:textColor="@color/heione"
+                    android:textSize="17sp"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+</com.zhy.autolayout.AutoLinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_all"
+    android:background="@drawable/my_prize_bg"
+    android:orientation="vertical"
+    tools:context="com.yidiankeyan.science.information.acitivity.MyPrizeActivity">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="115px">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_return"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:paddingLeft="21px"
+            android:paddingRight="21px">
+
+            <ImageView
+                android:id="@+id/title_return"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/returns" />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <TextView
+            android:id="@+id/maintitle_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="160px"
+            android:layout_weight="5"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="我的奖品"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <ImageButton
+            android:id="@+id/title_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:onClick="btnmainright"
+            android:background="@null"
+            android:paddingLeft="21px"
+            android:paddingRight="21px"
+            android:src="@drawable/icon_subsribe_more"
+            android:visibility="visible" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <cn.finalteam.loadingviewfinal.ListViewFinalLoadMore
+        android:id="@+id/lv_prize"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:layout_height="match_parent"
+        android:layout_marginTop="46px"
+        android:cacheColorHint="#00000000"
+        android:divider="#D96D13"
+        android:dividerHeight="1px"
+        app:loadMoreMode="scroll"></cn.finalteam.loadingviewfinal.ListViewFinalLoadMore>
+</com.zhy.autolayout.AutoLinearLayout>

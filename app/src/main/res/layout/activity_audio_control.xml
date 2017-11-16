@@ -1,0 +1,272 @@
+<com.zhy.autolayout.AutoLinearLayout
+    android:id="@+id/ll_audio_control"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/layout_title"
+                android:layout_width="match_parent"
+                android:layout_height="88px"
+                android:background="@color/white">
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:id="@+id/ll_return"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="21px"
+                    android:paddingRight="21px">
+
+                    <ImageView
+                        android:id="@+id/title_return"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/returns"/>
+
+
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <com.yidiankeyan.science.view.MarqueeTextView
+                    android:id="@+id/maintitle_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="160px"
+                    android:layout_weight="5"
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="暂无标题"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"/>
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:id="@+id/ll_audio_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:paddingLeft="21px"
+                    android:paddingRight="21px"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_audio_more"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/icon_subsribe_more"/>
+
+                </com.zhy.autolayout.AutoLinearLayout>
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.yidiankeyan.science.view.rollviewpager.RollPagerView
+                    android:id="@+id/vp_control"
+                    android:layout_width="361px"
+                    android:layout_height="380px"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="63px"
+                    android:visibility="gone"
+                    android:scaleType="fitCenter"
+                    app:rollviewpager_play_delay="6000"/>
+
+                <ImageView
+                    android:id="@+id/img_today_cor"
+                    android:layout_width="361px"
+                    android:layout_height="380px"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="63px"
+                    android:scaleType="centerCrop"
+                    />
+
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/rl_content_author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="88px"
+                >
+
+                <TextView
+                    android:id="@+id/tv_content_author"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text=""
+                    android:textColor="@color/black_33"
+                    android:textSize="16sp"
+                    />
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/rl_three_popup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="88px"
+                >
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:id="@+id/ll_control_report"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/img_collect"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_linear_collection"
+                        />
+
+
+                    <ImageView
+                        android:id="@+id/img_today_timing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="100px"
+                        android:layout_marginRight="100px"
+                        android:src="@drawable/icon_today_timing"
+                        />
+
+
+                    <ImageView
+                        android:id="@+id/img_today_audio_draft"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_today_audio_draft"
+                        />
+                </com.zhy.autolayout.AutoLinearLayout>
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="88px"
+                >
+
+                <TextView
+                    android:id="@+id/tv_curr_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="50px"
+                    android:text="00:00"
+                    android:textColor="#bcbcbc"
+                    android:textSize="12sp"/>
+
+                <SeekBar
+                    android:id="@+id/seekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/tv_total_time"
+                    android:layout_toRightOf="@+id/tv_curr_time"
+                    android:maxHeight="1px"
+                    android:minHeight="1px"
+                    android:progressDrawable="@drawable/seekbar_today_style"
+                    android:thumb="@drawable/icon_today_audio_seekbar_thumb"/>
+
+                <TextView
+                    android:id="@+id/tv_total_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="50px"
+                    android:text="00:00"
+                    android:textColor="#bcbcbc"
+                    android:textSize="12sp"/>
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="133px">
+
+                <ImageView
+                    android:id="@+id/img_audio_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="50px"
+                    android:src="@drawable/icon_today_audio_list"/>
+
+                <ImageView
+                    android:id="@+id/img_play_model"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="50px"
+                    android:src="@drawable/icon_today_order_model"/>
+
+                <ImageView
+                    android:id="@+id/img_last"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/img_media_play"
+                    android:src="@drawable/icon_today_top_program"/>
+
+
+                <ImageView
+                    android:id="@+id/img_media_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="44px"
+                    android:layout_marginRight="44px"
+                    android:src="@drawable/icon_today_audio_play"/>
+
+
+                <ImageView
+                    android:id="@+id/img_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/img_media_play"
+                    android:src="@drawable/icon_today_bottom_program"/>
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </ScrollView>
+
+
+</com.zhy.autolayout.AutoLinearLayout>

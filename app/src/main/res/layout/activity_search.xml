@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="match_parent"
+                                     android:background="#ffffff"
+                                     android:clipToPadding="true"
+                                     android:fitsSystemWindows="true"
+                                     android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10px"
+        android:paddingLeft="20px"
+        android:paddingRight="20px"
+        android:paddingTop="10px">
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10px"
+            android:layout_toLeftOf="@+id/tv_cancel"
+            android:background="@drawable/shape_search_border"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_search_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10px"
+                android:src="@drawable/icon_search_rec"/>
+
+            <EditText
+                android:id="@+id/et_search_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/ll_cancel"
+                android:layout_toRightOf="@+id/img_search_icon"
+                android:background="@null"
+                android:hint="请输入关键字"
+                android:imeOptions="actionSearch"
+                android:paddingBottom="10px"
+                android:paddingLeft="20px"
+                android:paddingTop="10px"
+                android:singleLine="true"
+                android:textColorHint="@color/menu"
+                android:textSize="15sp"/>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/ll_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingBottom="10px"
+                android:paddingLeft="20px"
+                android:paddingRight="20px"
+                android:paddingTop="10px">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_search_cancel"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="取消"/>
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EEEEEE"></View>
+
+    <ScrollView
+        android:id="@+id/sv_no_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_no_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/ll_his"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.zhy.autolayout.AutoRelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="96px"
+                    android:layout_marginLeft="24px"
+                    android:layout_marginRight="24px"
+                    android:gravity="bottom">
+
+                    <TextView
+                        android:id="@+id/tv_tip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="搜索历史"
+                        android:textColor="#828282"
+                        android:textSize="14sp"/>
+
+                    <ImageView
+                        android:id="@+id/tv_clear"
+                        android:layout_width="32px"
+                        android:layout_height="34px"
+                        android:layout_alignParentRight="true"
+                        android:gravity="left|center_vertical"
+                        android:src="@drawable/icon_clear_search"/>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_below="@+id/tv_clear"
+                        android:layout_marginTop="22px"
+                        android:background="#e5e5e5"></View>
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+                <!--<me.next.tagview.TagCloudView-->
+                <!--android:id="@+id/tag_history"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:tcvBackground="@drawable/shape_custom_textview_normal"-->
+                <!--app:tcvBorder="8dp"-->
+                <!--app:tcvCanTagClick="true"-->
+                <!--app:tcvItemBorderHorizontal="8dp"-->
+                <!--app:tcvItemBorderVertical="6dp"-->
+                <!--app:tcvTextColor="@color/heione"/>-->
+
+                <com.yidiankeyan.science.view.ExpandableLinearLayout
+                    android:id="@+id/expand_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.yidiankeyan.science.view.ShowAllListView
+                        android:id="@+id/gv_tag_history"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:divider="@null">
+
+                    </com.yidiankeyan.science.view.ShowAllListView>
+
+                </com.yidiankeyan.science.view.ExpandableLinearLayout>
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/rl_hot"
+                android:layout_width="match_parent"
+                android:layout_height="96px"
+                android:layout_marginLeft="24px"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:id="@+id/tv_recom_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="12px"
+                    android:layout_toRightOf="@+id/img_hot_avatar"
+                    android:text="推荐搜索"
+                    android:textColor="#828282"
+                    android:textSize="14sp"/>
+
+                <ImageView
+                    android:layout_width="34px"
+                    android:layout_height="32px"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12px"
+                    android:layout_toRightOf="@+id/tv_recom_search"
+                    android:src="@drawable/icon_recommend_hot"/>
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="24px"
+                android:layout_marginRight="24px"
+                android:background="#e5e5e5"></View>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ListView
+                    android:id="@+id/lv_hot_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@null">
+
+                </ListView>
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </ScrollView>
+
+
+    <!--搜索后展示界面-->
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/search_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="80px"
+
+            >
+
+            <TextView
+                android:id="@+id/search_all"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="全部"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/search_ablum"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="专辑"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/search_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="内容"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/search_editor"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="主编"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/search_answer"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="答人"
+                android:textSize="15sp"/>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="#CFCFCF"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_search"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:flipInterval="30"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>

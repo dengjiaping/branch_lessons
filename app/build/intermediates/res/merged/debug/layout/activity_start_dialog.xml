@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="90px"
+        android:layout_height="90px"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20px"
+        android:layout_marginTop="20px"
+        android:background="@drawable/icon_start_close"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/start_img"
+        android:layout_width="623px"
+        android:layout_height="721px"
+        android:scaleType="centerInside"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <View
+        android:id="@+id/btn_closes"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_alignEnd="@+id/start_img"
+        android:layout_alignRight="@+id/start_img"
+        android:layout_alignTop="@+id/start_img"></View>
+
+</com.zhy.autolayout.AutoRelativeLayout>

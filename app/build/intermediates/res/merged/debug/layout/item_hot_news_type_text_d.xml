@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="18px"
+    android:paddingLeft="24px"
+    android:paddingRight="24px"
+    android:paddingTop="30px">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="标题"
+        android:textColor="@color/black_33"
+        android:textSize="16sp" />
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/ll_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:layout_marginTop="18px"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_author_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxEms="10"
+            android:maxLines="1"
+            android:text=""
+            android:textColor="#999999"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tv_division"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" · "
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_isfocus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+            android:background="#6f6f6f"
+            android:paddingLeft="5px"
+            android:paddingRight="5px"
+            android:text="已关注"
+            android:textColor="@color/white"
+            android:textSize="9sp"
+            android:visibility="gone"
+            />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:layout_weight="1"
+            ></View>
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:gravity="right"
+            android:text="sdsad"
+            android:textColor="#999999"
+            android:textSize="11sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=""
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/tv_comment_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="评论数"
+            android:visibility="gone"
+            android:textColor="#999999"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tv_read_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="阅读量"
+            android:textColor="#999999"
+            android:textSize="11sp"
+            android:visibility="gone" />
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:id="@+id/rl_album_label"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="30px"
+            android:visibility="gone"
+            >
+
+            <ImageView
+                android:id="@+id/img_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10px"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_hot_news_label"
+                />
+
+            <TextView
+                android:id="@+id/tv_album_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img_label"
+                android:layout_centerVertical="true"
+                android:minHeight="0px"
+                android:minWidth="0px"
+                android:paddingLeft="3px"
+                android:paddingRight="3px"
+                android:text=""
+                android:textColor="#999999"
+                android:textSize="11sp"
+                />
+        </com.zhy.autolayout.AutoRelativeLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoRelativeLayout>

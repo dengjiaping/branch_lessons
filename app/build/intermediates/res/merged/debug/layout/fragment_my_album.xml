@@ -1,0 +1,87 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.yidiankeyan.science.my.fragment.MyAlbumFragment">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#eeeeee"
+            />
+
+        <cn.finalteam.loadingviewfinal.PtrClassicFrameLayout
+            android:id="@+id/ptr_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            >
+
+            <cn.finalteam.loadingviewfinal.ListViewFinal
+                android:id="@+id/lv_editor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="#00000000"
+                android:divider="@null"
+                app:loadMoreMode="scroll"/>
+
+        </cn.finalteam.loadingviewfinal.PtrClassicFrameLayout>
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:id="@+id/rl_editor_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="110px"
+            >
+
+            <TextView
+                android:id="@+id/tv_editor_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20px"
+                android:text="你还没有上传专辑"
+                android:textColor="#9a9a9a"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:id="@+id/tv_official"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_editor_content"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="10px"
+                android:text="官网详情："
+                android:textColor="#9a9a9a"
+                android:textSize="30px"
+                />
+
+            <TextView
+                android:id="@+id/tv_web_url"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_editor_content"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="10px"
+                android:layout_toRightOf="@+id/tv_official"
+                android:autoLink="web"
+                android:text="http://moz.poinetech.com/"
+                android:textColor="#f1312e"
+                android:textSize="30px"
+                />
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+</FrameLayout>

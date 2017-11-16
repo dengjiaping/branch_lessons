@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    android:id="@+id/ll_my_number_security"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.yidiankeyan.science.my.activity.MyNumberBindingActivity">
+
+    <include
+        android:id="@+id/ic_title"
+        layout="@layout/inc_title"></include>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="122px"
+        android:background="#f1f1f1"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/menu"
+            android:textSize="16sp"
+            android:text="你可以使用已绑定的账号登录墨子学堂"
+            />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/rl_phone_binding"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:visibility="gone"
+        android:padding="20px">
+
+        <TextView
+            android:id="@+id/tv_phone_binding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="手机绑定"
+            android:textSize="15sp"
+            android:textColor="@color/black_33"
+            />
+
+        <ImageView
+            android:id="@+id/img_phone_mores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30px"
+            android:src="@drawable/more"/>
+
+
+        <TextView
+            android:id="@+id/tv_already_binding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20px"
+            android:layout_toLeftOf="@+id/img_phone_mores"
+            android:text="未绑定"
+            android:textColor="@color/menu"
+            android:textSize="15sp"/>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/sub_column_divider"
+        />
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/rl_wx_binding"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:visibility="gone"
+        android:padding="20px">
+
+        <TextView
+            android:id="@+id/tv_wx_binding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="微信绑定"
+            android:textColor="@color/black_33"
+            android:textSize="15sp"
+            />
+
+        <ImageView
+            android:id="@+id/img_wx_mores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30px"
+            android:src="@drawable/more"/>
+
+
+        <TextView
+            android:id="@+id/tv_wx_already_binding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20px"
+            android:layout_toLeftOf="@+id/img_wx_mores"
+            android:text="未绑定"
+            android:textColor="@color/menu"
+            android:textSize="15sp"/>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/sub_column_divider"
+        />
+</com.zhy.autolayout.AutoLinearLayout>

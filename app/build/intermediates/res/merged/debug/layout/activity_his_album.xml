@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.yidiankeyan.science.my.activity.HisAlbumActivity">
+
+    <include layout="@layout/inc_title"></include>
+
+
+    <cn.finalteam.loadingviewfinal.PtrClassicFrameLayout
+        android:id="@+id/ptr_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <cn.finalteam.loadingviewfinal.ListViewFinal
+            android:id="@+id/lv_his_album"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="@null"
+            app:loadMoreMode="scroll"/>
+
+    </cn.finalteam.loadingviewfinal.PtrClassicFrameLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>

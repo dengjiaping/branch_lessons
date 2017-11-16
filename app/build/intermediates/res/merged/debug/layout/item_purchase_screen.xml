@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_conversation_more_bg"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/ll_screen_all"
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50px"
+            android:text="全部"
+            android:textColor="@color/black_33"
+            android:textSize="14sp"/>
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#ececec"></View>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/ll_screen_column"
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50px"
+            android:text="专栏"
+            android:textColor="@color/black_33"
+            android:textSize="14sp"/>
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#ececec"></View>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/ll_screen_magazine"
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50px"
+            android:text="杂志"
+            android:textColor="@color/black_33"
+            android:textSize="14sp"/>
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#ececec"></View>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/ll_screen_book"
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50px"
+            android:text="书籍"
+            android:textColor="@color/black_33"
+            android:textSize="14sp"/>
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#ececec"></View>
+
+</com.zhy.autolayout.AutoLinearLayout>

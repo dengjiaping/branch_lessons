@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.yidiankeyan.science.information.fragment.ClsTxtImgAllFragment">
+    <cn.finalteam.loadingviewfinal.PtrClassicFrameLayout
+        android:id="@+id/ptr_recommend_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <cn.finalteam.loadingviewfinal.ListViewFinalLoadMore
+            android:id="@+id/lv_clstxtimg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="@null"
+            app:loadMoreMode="scroll" />
+
+    </cn.finalteam.loadingviewfinal.PtrClassicFrameLayout>
+
+</FrameLayout>

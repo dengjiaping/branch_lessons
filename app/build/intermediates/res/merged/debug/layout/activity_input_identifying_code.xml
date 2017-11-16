@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    tools:context=".app.activity.RegisterActivity">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/inc_title"></include>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/title"
+        android:background="#CCCCCC"></View>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/ll_input_number"
+        android:layout_width="500px"
+        android:layout_height="50px"
+        android:layout_below="@+id/line"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50px"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/reguster_password"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="请设置密码"
+            android:imeActionId="@+id/login"
+            android:imeActionLabel="@string/action_sign_in_short"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/heione"
+            android:textColorHint="#c7c7c9"
+            android:textSize="32px"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <View
+        android:layout_width="500px"
+        android:layout_height="1px"
+        android:layout_below="@+id/ll_input_number"
+        android:layout_centerHorizontal="true"
+        android:background="#ececec"></View>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/ll_input_identifying_code"
+        android:layout_width="500px"
+        android:layout_height="102px"
+        android:layout_below="@+id/ll_input_number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50px"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_input_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15px"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="bottom"
+            android:hint="请输入验证码"
+            android:maxLength="5"
+            android:numeric="integer"
+            android:textColor="@color/heione"
+            android:textColorHint="#c7c7c9"
+            android:textSize="30px"/>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_count_down"
+            android:layout_width="184px"
+            android:layout_height="68px"
+            android:layout_below="@+id/ll_input_identifying_code"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="15px">
+
+            <TextView
+                android:id="@+id/tv_count_number"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_count_down"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="24px"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btn_count_number"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_get_identify_code"
+                android:minHeight="0px"
+                android:minWidth="0px"
+                android:text="获取验证码"
+                android:textColor="@color/white"
+                android:textSize="24px"/>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <View
+        android:layout_width="500px"
+        android:layout_height="1px"
+        android:layout_below="@+id/ll_input_identifying_code"
+        android:layout_centerHorizontal="true"
+        android:background="#ececec"></View>
+
+
+    <TextView
+        android:id="@+id/tv_nexts"
+        android:layout_width="500px"
+        android:layout_height="70px"
+        android:layout_alignLeft="@+id/ll_input_identifying_code"
+        android:layout_below="@+id/ll_input_identifying_code"
+        android:layout_marginTop="50px"
+        android:background="@drawable/select_register_phone"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="下一步"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_nexts"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40px"
+        android:text="注册如果遇到问题，请联系墨子学堂"
+        android:textColor="@color/heione"/>
+
+</com.zhy.autolayout.AutoRelativeLayout>

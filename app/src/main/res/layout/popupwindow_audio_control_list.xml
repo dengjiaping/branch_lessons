@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF3F3F3"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:gravity="center"
+        android:text="播放列表"
+        android:textColor="@color/black_33"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#f1f1f1"></View>
+
+    <ListView
+        android:id="@+id/lv_audio_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#f1f1f1"
+        android:dividerHeight="1px"></ListView>
+
+</com.zhy.autolayout.AutoLinearLayout>

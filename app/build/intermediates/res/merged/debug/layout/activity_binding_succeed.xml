@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+    android:id="@+id/rl_binding_succeed"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    tools:context="com.yidiankeyan.science.my.activity.PhoneBindingSucceedActivity">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/inc_title"></include>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/title"
+        android:background="#CCCCCC"></View>
+
+
+    <ImageView
+        android:id="@+id/img_phone_icon"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_below="@+id/line"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80px"
+        android:src="@drawable/icon_phone_binding"
+        />
+
+    <TextView
+        android:id="@+id/tv_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_phone_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80px"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/tv_prompt_succeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_phone_number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80px"
+        android:textSize="16sp"
+        android:textColor="#999999"
+        android:text="绑定成功"
+        />
+
+    <TextView
+        android:id="@+id/tv_prompt_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="现在你可以通过手机号和密码来登录墨子"
+        android:layout_below="@+id/tv_prompt_succeed"
+        android:layout_marginTop="40px"
+        android:textSize="16sp"
+        android:textColor="#999999"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/tv_revise_password"
+        android:layout_width="280px"
+        android:layout_height="80px"
+        android:layout_below="@+id/tv_prompt_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="212px"
+        android:background="@drawable/select_default_ellipse"
+        android:gravity="center"
+        android:textColor="@color/defaultcolor"
+        android:textSize="16sp"
+        android:text="修改密码"
+        />
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

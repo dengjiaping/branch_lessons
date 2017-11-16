@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/al_web_tv"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".subscribe.activity.ImgTxtAlbumActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#CCCCCC"></View>
+
+    <!--<ProgressBar-->
+        <!--android:id="@+id/progressBar1"-->
+        <!--style="?android:attr/progressBarStyleHorizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="3dip"-->
+        <!--android:visibility="gone" />-->
+
+    <com.yidiankeyan.science.view.ObservableScrollView
+        android:id="@+id/sv_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+
+            <FrameLayout
+                android:id="@+id/video_fullView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:visibility="gone"></FrameLayout>
+
+            <!--<com.yidiankeyan.science.view.ProgressWebView-->
+            <!--android:id="@+id/web_imgtxt_album"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" />-->
+
+
+            <ImageView
+                android:id="@+id/img_gratuity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20px"
+                android:layout_marginTop="20px"
+                android:layout_toRightOf="@+id/img_follow"
+                android:src="@drawable/icon_album_gratuity"
+                android:visibility="gone" />
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/ll_txt_click"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20px"
+                android:background="@drawable/shape_txt_focuseds"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10px"
+                android:paddingLeft="40px"
+                android:visibility="gone"
+                android:paddingRight="34px"
+                android:paddingTop="10px">
+
+                <ImageView
+                    android:layout_width="30px"
+                    android:layout_height="32px"
+                    android:src="@drawable/icon_txt_img_clicks" />
+
+                <TextView
+                    android:id="@+id/tv_click_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21px"
+                    android:text="0"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/ll_tag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="31px"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5px"
+                        android:layout_height="30px"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/my_user_login" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="23px"
+                        android:text="相关标签"
+                        android:textColor="@color/black_33"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginTop="28px"
+                    android:background="#f2f2f1" />
+
+                <me.next.tagview.TagCloudView
+                    android:id="@+id/tag_cloud_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:tcvBorder="8dp"
+                    app:tcvCanTagClick="true"
+                    app:tcvTagResId="@layout/item_tag_style" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="20px"
+                    android:layout_marginTop="30px"
+                    android:background="#f1f1f1"></View>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/ll_relevant_read"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30px"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5px"
+                        android:layout_height="30px"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/my_user_login" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="23px"
+                        android:text="相关阅读"
+                        android:textColor="@color/black_33"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </com.zhy.autolayout.AutoLinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginTop="28px"
+                    android:background="#f2f2f1" />
+
+                <com.yidiankeyan.science.view.ShowAllListView
+                    android:id="@+id/lv_relevant_read"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="#f2f2f1">
+
+                </com.yidiankeyan.science.view.ShowAllListView>
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+            <View
+                android:id="@+id/v_relevant_read"
+                android:layout_width="match_parent"
+                android:layout_height="20px"
+                android:background="#f1f1f1"
+                android:visibility="gone"
+                ></View>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/ll_comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30px"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5px"
+                        android:layout_height="30px"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/my_user_login" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="23px"
+                        android:text="热门评论"
+                        android:textColor="@color/black_33"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </com.zhy.autolayout.AutoLinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginTop="28px"
+                    android:background="#f2f2f1" />
+
+                <com.yidiankeyan.science.view.ShowAllListView
+                    android:id="@+id/lv_comment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28px"
+                    android:divider="#eeeeee"
+                    android:dividerHeight="1px">
+
+                </com.yidiankeyan.science.view.ShowAllListView>
+
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/ll_new"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30px"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5px"
+                        android:layout_height="30px"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/my_user_login" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="23px"
+                        android:text="@string/the_new_comment"
+                        android:textColor="@color/black_33"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </com.zhy.autolayout.AutoLinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginTop="28px"
+                    android:background="#f2f2f1" />
+
+                <com.yidiankeyan.science.view.ShowAllListView
+                    android:id="@+id/lv_new_comment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28px"
+                    android:divider="#eeeeee"
+                    android:dividerHeight="1px">
+
+                </com.yidiankeyan.science.view.ShowAllListView>
+
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <TextView
+                android:id="@+id/tv_more_comment"
+                android:layout_width="match_parent"
+                android:layout_height="88px"
+                android:layout_marginTop="31px"
+                android:background="#fafafa"
+                android:gravity="center"
+                android:visibility="gone"
+                android:text="查看更多评论 >>"
+                android:textColor="#666666"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/iv_defult_page"
+                android:layout_width="match_parent"
+                android:src="@drawable/no_comment"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:visibility="gone"
+                android:layout_height="match_parent"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.yidiankeyan.science.view.ObservableScrollView>
+
+
+    <include layout="@layout/inc_imgtxt_bottom"></include>
+
+</com.zhy.autolayout.AutoLinearLayout>

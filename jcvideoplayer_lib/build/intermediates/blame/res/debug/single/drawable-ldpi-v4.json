@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\jcvideoplayer_lib\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\jc_pause_normal.png",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\jcvideoplayer_lib\\src\\main\\res\\drawable-ldpi\\jc_pause_normal.png"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\jcvideoplayer_lib\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\jc_play_normal.png",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\jcvideoplayer_lib\\src\\main\\res\\drawable-ldpi\\jc_play_normal.png"
+    }
+]

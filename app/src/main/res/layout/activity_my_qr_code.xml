@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+    android:id="@+id/activity_mu_qr_code"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.yidiankeyan.science.my.activity.MyQrCodeActivity">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:alpha="0.65"
+        android:background="#000000">
+
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_return"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:paddingLeft="21px"
+            android:paddingRight="21px">
+
+            <ImageView
+                android:id="@+id/title_return"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/receive_prize_return"/>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+
+        <TextView
+            android:id="@+id/maintitle_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="160px"
+            android:layout_weight="5"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="暂无标题"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_audio_more"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:paddingLeft="21px"
+            android:paddingRight="21px"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/img_audio_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_white_more"/>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_title"
+        android:alpha="0.65"
+        android:background="#000000"></View>
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/ll_code_img"
+        android:layout_width="653px"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_title"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="104px"
+        android:background="@drawable/shape_im_user_detail"
+        android:orientation="vertical">
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <ImageView
+                android:id="@+id/img_avatar"
+                android:layout_width="130px"
+                android:layout_height="130px"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40px"
+                android:src="@drawable/icon_default_avatar"
+                />
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_avatar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20px"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text=""
+                    android:textColor="@color/black_33"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/tv_science_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20px"
+                    android:layout_toRightOf="@+id/img_avatar"
+                    android:text=""
+                    android:textColor="@color/black_33"
+                    android:textSize="14sp"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <ImageView
+            android:id="@+id/img_qr_code"
+            android:layout_width="585px"
+            android:layout_height="585px"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40px"/>
+
+        <TextView
+            android:id="@+id/tv_save_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20px"
+            android:paddingBottom="10px"
+            android:text="保存二维码到手机"
+            android:textColor="@color/black_33"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoRelativeLayout>

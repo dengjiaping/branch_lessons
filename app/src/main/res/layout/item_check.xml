@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20px"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="20px"
+    >
+
+
+    <TextView
+        android:id="@+id/item_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="21px"
+        android:layout_marginTop="20px"
+        android:ellipsize="end"
+        android:maxEms="20"
+        android:singleLine="true"
+        android:text="aaaaaaa"
+        android:textColor="#394257"
+        android:layout_centerVertical="true"
+        android:textSize="28px"
+        />
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_file_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="28px"
+            android:layout_marginTop="12px"
+            android:text="7.1M"
+            android:textColor="#b3bbc9"
+            android:textSize="16px"
+            />
+
+        <CheckBox
+            android:id="@+id/item_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30px"
+            android:button="@null"
+            android:clickable="false"
+            android:drawableLeft="@drawable/btn_check_selector"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            />
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

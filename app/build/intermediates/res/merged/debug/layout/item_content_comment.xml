@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+    android:id="@+id/rl_all"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_avatar"
+        android:layout_width="105px"
+        android:layout_height="105px"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="60px"/>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/rl_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/img_avatar"
+        android:layout_alignTop="@+id/img_avatar"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="6px"
+        android:layout_toRightOf="@+id/img_avatar">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="#f1312e"
+            android:textSize="28px"/>
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name"
+            android:layout_marginTop="18px"
+            android:text=""
+            android:textColor="#949494"
+            android:textSize="28px"/>
+
+
+        <TextView
+            android:id="@+id/tv_delete_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16px"
+            android:padding="10px"
+            android:text="删除"
+            android:textColor="@color/navy"
+            android:textSize="25px"/>
+
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/ll_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="32px"
+        android:layout_marginTop="50px"
+        android:layout_toLeftOf="@+id/ll_comment"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10px"
+        android:paddingTop="10px">
+
+        <TextView
+            android:id="@+id/tv_click_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#f1312e"
+            android:textSize="22px"/>
+
+        <ImageView
+            android:id="@+id/img_click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15px"
+            android:src="@drawable/icon_click_love_interview"/>
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/ll_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26px"
+        android:layout_marginTop="50px"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10px"
+        android:paddingTop="10px">
+
+        <TextView
+            android:id="@+id/tv_comment_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#f1312e"
+            android:textSize="22px"/>
+
+        <ImageButton
+            android:id="@+id/img_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15px"
+            android:background="@null"
+            android:focusable="false"
+            android:src="@drawable/icon_click_comment_interview"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:id="@+id/tv_father"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rl_container"
+        android:layout_below="@+id/rl_container"
+        android:layout_marginRight="34px"
+        android:layout_marginTop="32px"
+        android:text=""
+        android:textColor="#0e0e0e"
+        android:textSize="15sp"></TextView>
+
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/rl_son_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_father"
+        android:layout_marginTop="30px"
+        android:background="#f7f7f7"
+        android:visibility="gone">
+
+        <com.yidiankeyan.science.view.ShowAllListView
+            android:id="@+id/lv_sons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_father"
+            android:layout_marginBottom="54px"
+            android:layout_marginLeft="32px"
+            android:layout_marginTop="24px"
+            android:cacheColorHint="@color/transparent"
+            android:divider="#f7f7f7"
+            android:dividerHeight="35px"
+            android:listSelector="@color/transparent">
+
+        </com.yidiankeyan.science.view.ShowAllListView>
+
+        <TextView
+            android:id="@+id/tv_more_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lv_sons"
+            android:layout_below="@+id/lv_sons"
+            android:layout_marginBottom="22px"
+            android:text="更多评论"
+            android:textColor="#4d6e95"
+            android:textSize="33px"/>
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+</com.zhy.autolayout.AutoRelativeLayout>

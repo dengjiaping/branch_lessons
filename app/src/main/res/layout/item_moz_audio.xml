@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="220px"
+        android:layout_height="220px"
+        android:layout_marginTop="19px"
+        android:background="#f1f1f1"
+        android:padding="5px">
+
+        <ImageView
+            android:id="@+id/img_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tv_subscribed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/icon_subscribe"
+            android:gravity="center"
+            android:text="已订阅"
+            android:textColor="@color/white"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tv_update_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/icon_moz_audio"
+            android:gravity="center"
+            android:text="33"
+            android:textColor="@color/white"
+            android:textSize="11sp" />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="220px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19px"
+        android:ellipsize="end"
+        android:lines="2"
+        android:textColor="@color/black_33"
+        android:textSize="13sp" />
+</com.zhy.autolayout.AutoLinearLayout>

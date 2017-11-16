@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingBottom="30px"
+    android:paddingLeft="50px"
+    android:paddingRight="50px"
+    android:paddingTop="30px">
+
+    <ImageView
+        android:id="@+id/img_zavatars"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:src="@drawable/icon_avatar" />
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img_zavatars"
+        android:layout_alignTop="@+id/img_zavatars"
+        android:layout_marginLeft="20px"
+        android:layout_toRightOf="@+id/img_zavatars"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_ztitles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="理论前沿"
+            android:textColor="@color/black_33"
+            android:textSize="15sp" />
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="14px"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_user_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1314位答人"
+                android:textColor="#999999"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" · "
+                android:textColor="#999999"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_answer_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1312条回答"
+                android:textColor="#999999"
+                android:textSize="12sp" />
+            <!--<TextView-->
+            <!--android:id="@+id/txt_ztoutings"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="20px"-->
+            <!--android:layout_toRightOf="@+id/tv_ztouting"-->
+            <!--android:textColor="@color/red"-->
+            <!--android:textSize="12sp" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_ztouting"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="人已偷听"-->
+            <!--android:textSize="12sp" />-->
+
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+</com.zhy.autolayout.AutoRelativeLayout>

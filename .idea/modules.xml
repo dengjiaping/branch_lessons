@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/branch_lessons.iml" filepath="$PROJECT_DIR$/branch_lessons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jcvideoplayer_lib/jcvideoplayer_lib.iml" filepath="$PROJECT_DIR$/jcvideoplayer_lib/jcvideoplayer_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loading-more-view/loading-more-view.iml" filepath="$PROJECT_DIR$/loading-more-view/loading-more-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mediayplayerjcvideoplayer-lib/mediayplayerjcvideoplayer-lib.iml" filepath="$PROJECT_DIR$/mediayplayerjcvideoplayer-lib/mediayplayerjcvideoplayer-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ultra-pull-to-refresh/ultra-pull-to-refresh.iml" filepath="$PROJECT_DIR$/ultra-pull-to-refresh/ultra-pull-to-refresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xutils/xutils.iml" filepath="$PROJECT_DIR$/xutils/xutils.iml" />
+    </modules>
+  </component>
+</project>

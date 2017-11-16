@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="18px"
+    android:paddingLeft="24px"
+    android:paddingRight="24px"
+    android:paddingTop="30px">
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_container"
+        android:layout_alignTop="@+id/rl_container"
+        android:layout_marginRight="63px"
+        android:layout_toLeftOf="@+id/rl_container"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text=""
+        android:textColor="@color/black_33"
+        android:textSize="16sp"/>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/rl_container"
+        android:layout_width="228px"
+        android:layout_height="168px"
+        android:layout_alignParentRight="true">
+
+        <ImageView
+            android:id="@+id/img_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"/>
+
+
+        <ImageView
+            android:id="@+id/img_hot_news_audio"
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10px"
+            android:layout_marginRight="10px"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/tv_video_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/shape_video_length_bg"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="11sp"
+            android:visibility="gone"
+            />
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/ll_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rl_container"
+        android:layout_toLeftOf="@+id/rl_container"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingRight="24px">
+
+        <TextView
+            android:id="@+id/tv_author_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxEms="10"
+            android:maxLines="1"
+            android:text=""
+            android:textColor="#999999"
+            android:textSize="11sp"/>
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:layout_weight="1"
+            ></View>
+
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#999999"
+            android:textSize="11sp"/>
+
+        <TextView
+            android:id="@+id/tv_album_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/select_hotnews_bg"
+            android:gravity="center"
+            android:minHeight="0px"
+            android:minWidth="0px"
+            android:paddingLeft="3px"
+            android:paddingRight="3px"
+            android:text=""
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:textSize="11sp"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+</com.zhy.autolayout.AutoRelativeLayout>

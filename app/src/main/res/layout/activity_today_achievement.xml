@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_all"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.yidiankeyan.science.information.acitivity.TodayAchievementActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="500px">
+
+                <ImageView
+                    android:id="@+id/img_casterimgurl"
+                    android:layout_width="match_parent"
+                    android:layout_height="500px"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/today_sign_bg" />
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:id="@+id/titles"
+                    android:layout_width="match_parent"
+                    android:layout_height="88px">
+
+
+                    <com.zhy.autolayout.AutoRelativeLayout
+                        android:id="@+id/ll_return"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:paddingLeft="24px"
+                        android:paddingRight="21px">
+
+                        <ImageView
+                            android:id="@+id/img_return"
+                            android:layout_width="36px"
+                            android:layout_height="36px"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/icon_audio_return" />
+
+                    </com.zhy.autolayout.AutoRelativeLayout>
+
+                    <com.zhy.autolayout.AutoRelativeLayout
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5">
+
+                        <TextView
+                            android:id="@+id/maintitle_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="日课"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                    </com.zhy.autolayout.AutoRelativeLayout>
+
+                    <com.zhy.autolayout.AutoRelativeLayout
+                        android:id="@+id/ll_play"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="1"
+                        android:paddingLeft="21px"
+                        android:paddingRight="24px">
+
+                        <ImageView
+                            android:id="@+id/img_play"
+                            android:layout_width="36px"
+                            android:layout_height="36px"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/animation_column_select" />
+                    </com.zhy.autolayout.AutoRelativeLayout>
+                </com.zhy.autolayout.AutoLinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/img_avatar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40px"
+                    android:layout_marginTop="128px"
+                    android:src="@drawable/icon_default_avatar" />
+
+                <com.zhy.autolayout.AutoRelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/img_avatar"
+                    android:layout_alignTop="@+id/img_avatar"
+                    android:layout_marginLeft="20px"
+                    android:layout_toRightOf="@+id/img_avatar"
+                    android:orientation="vertical">
+
+                    <com.zhy.autolayout.AutoLinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_today_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="用户昵称"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_marginBottom="10px"
+                            android:layout_marginTop="10px"
+                            android:background="@color/white" />
+
+                        <com.zhy.autolayout.AutoLinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_today_moz"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="墨子号："
+                                android:textColor="@color/white"
+                                android:textSize="16sp" />
+
+                        </com.zhy.autolayout.AutoLinearLayout>
+
+                    </com.zhy.autolayout.AutoLinearLayout>
+
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+
+                <com.zhy.autolayout.AutoRelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_avatar"
+                    android:layout_marginTop="55px">
+
+                    <TextView
+                        android:id="@+id/tv_hide_calendar"
+                        android:layout_width="243px"
+                        android:layout_height="81px"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="50px"
+                        android:layout_toLeftOf="@+id/v_division"
+                        android:background="@drawable/today_item_frame"
+                        android:gravity="center"
+                        android:text="隐藏日历"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <View
+                        android:id="@+id/v_division"
+                        android:layout_width="1px"
+                        android:layout_height="1px"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"></View>
+
+
+                    <TextView
+                        android:id="@+id/tv_record_study"
+                        android:layout_width="243px"
+                        android:layout_height="81px"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="50px"
+                        android:layout_toRightOf="@+id/v_division"
+                        android:background="@drawable/today_item_frame"
+                        android:gravity="center"
+                        android:text="打卡学习"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <com.yidiankeyan.science.view.calendar.Panel
+                android:id="@+id/panel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:position="top">
+
+
+                <com.zhy.autolayout.AutoRelativeLayout
+                    android:id="@id/panelContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:id="@+id/line1"
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="#eeeeee"></View>
+
+                    <com.zhy.autolayout.AutoRelativeLayout
+                        android:id="@+id/title"
+                        android:layout_width="match_parent"
+                        android:layout_height="80px"
+                        android:layout_below="@+id/line1"
+                        android:layout_marginTop="30px">
+
+                        <com.zhy.autolayout.AutoLinearLayout
+                            android:id="@+id/ll_forward"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toLeftOf="@+id/main_year_month"
+                            android:paddingLeft="40px"
+                            android:paddingRight="40px">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="〈"
+                                android:textColor="#111111"
+                                android:textSize="12sp" />
+
+                        </com.zhy.autolayout.AutoLinearLayout>
+
+                        <TextView
+                            android:id="@+id/main_year_month"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="5dp"
+                            android:drawablePadding="7dp"
+                            android:text="asdasdsad"
+                            android:textColor="#111111"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <com.zhy.autolayout.AutoLinearLayout
+                            android:id="@+id/ll_backwards"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/main_year_month"
+                            android:paddingLeft="40px"
+                            android:paddingRight="40px">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="〉"
+                                android:textColor="#111111"
+                                android:textSize="12sp" />
+                        </com.zhy.autolayout.AutoLinearLayout>
+
+                    </com.zhy.autolayout.AutoRelativeLayout>
+
+                    <View
+                        android:id="@+id/line2"
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_below="@id/title"
+                        android:layout_marginTop="30px"
+                        android:background="#eeeeee"></View>
+
+                    <com.zhy.autolayout.AutoLinearLayout
+                        android:id="@+id/week"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/line2"
+                        android:layout_marginBottom="20px"
+                        android:layout_marginLeft="20px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="30px"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="周日"
+                            android:textColor="#F1312E"
+                            android:textSize="11sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="周一"
+                            android:textColor="#F1312E"
+                            android:textSize="11sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="周二"
+                            android:textColor="#F1312E"
+                            android:textSize="11sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="周三"
+                            android:textColor="#F1312E"
+                            android:textSize="11sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="周四"
+                            android:textColor="#F1312E"
+                            android:textSize="11sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="周五"
+                            android:textColor="#F1312E"
+                            android:textSize="11sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="周六"
+                            android:textColor="#F1312E"
+                            android:textSize="11sp"
+                            android:textStyle="bold" />
+                    </com.zhy.autolayout.AutoLinearLayout>
+
+                    <View
+                        android:id="@+id/line3"
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_below="@id/week"
+                        android:background="#eeeeee"
+                        android:visibility="gone"></View>
+
+                    <com.zhy.autolayout.AutoRelativeLayout
+                        android:id="@+id/main_frame"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/week"
+                        android:paddingLeft="20px"
+                        android:paddingRight="20px">
+
+                        <com.yidiankeyan.science.view.calendar.MyViewPager
+                            android:id="@+id/viewpager"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:scrollbars="none"></com.yidiankeyan.science.view.calendar.MyViewPager>
+
+                        <TextView
+                            android:id="@+id/main_frame_shader"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="60px" />
+                    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+                    <View
+                        android:id="@+id/line4"
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_below="@id/main_frame"
+                        android:background="#eeeeee"></View>
+
+                    <TextView
+                        android:id="@+id/tv_current_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="112px"
+                        android:layout_below="@+id/line4"
+                        android:background="#F5F5F5"
+                        android:gravity="center"
+                        android:textColor="@color/black_33"
+                        android:textSize="15sp" />
+
+                    <View
+                        android:id="@+id/line5"
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_below="@id/tv_current_date"
+                        android:background="#eeeeee"></View>
+                </com.zhy.autolayout.AutoRelativeLayout>
+            </com.yidiankeyan.science.view.calendar.Panel>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_data_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="暂无数据"
+                    android:visibility="gone" />
+
+                <com.yidiankeyan.science.view.ShowAllListView
+                    android:id="@+id/lv_history"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/ll_media_container2"
+                    android:divider="#eeeeee"
+                    android:dividerHeight="1px"></com.yidiankeyan.science.view.ShowAllListView>
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30px"></View>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </ScrollView>
+</com.zhy.autolayout.AutoLinearLayout>

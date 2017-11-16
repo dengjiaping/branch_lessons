@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TagCloudView"><attr format="reference" name="tcvBackground"/><attr format="color" name="tcvTextColor"/><attr format="dimension" name="tcvBorder"/><attr format="dimension" name="tcvTextSize"/><attr format="dimension" name="tcvBorderItem"/><attr format="dimension" name="tcvItemBorderVertical"/><attr format="dimension" name="tcvItemBorderHorizontal"/><attr format="boolean" name="tcvSingleLine"/><attr format="boolean" name="tcvShowEndText"/><attr format="boolean" name="tcvShowRightImg"/><attr format="string" name="tcvEndText"/><attr format="reference" name="tcvRightResId"/><attr format="boolean" name="tcvCanTagClick"/><attr format="reference" name="tcvTagResId"/></declare-styleable>
+    <!-- From: file:/Users/NeXT/Projects/GitDemo/TagCloudView/tagcloudview/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/NeXT/Projects/GitDemo/TagCloudView/tagcloudview/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">TagView</string>
+    <string name="hello_world">Hello world!</string>
+</resources>

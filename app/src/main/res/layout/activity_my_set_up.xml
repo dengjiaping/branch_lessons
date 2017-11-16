@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    android:id="@+id/ll_my_set"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f1f1f1"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.yidiankeyan.science.my.activity.MySetUpActivity">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/inc_title"></include>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/mylist"
+
+        />
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/ll_my_recomment"
+        android:layout_width="match_parent"
+        android:layout_height="84px"
+        android:background="@color/white"
+        >
+
+
+        <TextView
+            android:id="@+id/tv_test9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="24px"
+            android:text="接收推送消息"
+            android:textColor="@color/black_33"
+            android:textSize="15sp"/>
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/switch_my_recomment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="24px"
+            app:kswAnimationDuration="300"
+            app:kswBackDrawable="@drawable/ios_back_drawable"
+            app:kswBackMeasureRatio="1.4"
+            app:kswThumbDrawable="@drawable/ios_thumb_selector"
+            app:kswThumbMarginBottom="-8dp"
+            app:kswThumbMarginLeft="-5dp"
+            app:kswThumbMarginRight="-5dp"
+            app:kswThumbMarginTop="-2.5dp" />
+
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/grey_e8"
+
+        />
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/rl_my_clearcache"
+        android:layout_width="match_parent"
+        android:layout_height="84px"
+        android:layout_marginTop="30px"
+        android:background="@color/white"
+        android:padding="20px"
+        >
+
+        <ImageView
+            android:id="@+id/img_cache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_clear_cache"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/tv_cache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="4px"
+            android:text="清除缓存"
+            android:textColor="@color/black_33"
+            android:textSize="15sp"
+            />
+
+        <ImageView
+            android:id="@+id/img_moresfive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:layout_marginRight="6px"
+            android:src="@drawable/more"
+            />
+
+        <TextView
+            android:id="@+id/tv_cache_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="6px"
+            android:layout_toLeftOf="@+id/img_moresfive"
+            android:text="23213123"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/menu"
+            android:textSize="24px"
+            />
+
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/grey_e8"
+
+        />
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/ll_my_monitor"
+        android:layout_width="match_parent"
+        android:layout_height="84px"
+        android:layout_marginTop="30px"
+        android:background="@color/white"
+        android:padding="20px"
+        >
+
+
+        <TextView
+            android:id="@+id/tv_monitor_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="4px"
+            android:text="检测更新"
+            android:textColor="@color/black_33"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/img_up_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="6px"
+            android:src="@drawable/more"/>
+
+        <TextView
+            android:id="@+id/tv_monitor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20px"
+            android:layout_toLeftOf="@+id/img_up_more"
+            android:text=""
+            android:textColor="@color/menu"
+            android:textSize="24px"
+            />
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/mylist"
+
+        />
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/ll_my_aboutwe"
+        android:layout_width="match_parent"
+        android:layout_height="84px"
+        android:background="@color/white"
+        android:padding="20px"
+        >
+
+
+        <TextView
+            android:id="@+id/tv_test10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="4px"
+            android:text="关于我们"
+            android:textColor="@color/black_33"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="6px"
+            android:src="@drawable/more"/>
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_exit"
+        android:layout_width="match_parent"
+        android:layout_height="88px"
+        android:layout_marginTop="120px"
+        android:layout_marginLeft="24px"
+        android:layout_marginRight="24px"
+        android:background="@color/defaultcolor"
+        android:gravity="center"
+        android:text="退出登录"
+        android:textSize="36px"
+        android:textColor="@color/white"
+        />
+
+
+</com.zhy.autolayout.AutoLinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+    android:id="@+id/rl_my_interview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <CheckBox
+        android:id="@+id/cb_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="33px"
+        android:background="@drawable/selector_collect_check"
+        android:button="@null"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/img_avatar"
+        android:layout_width="120px"
+        android:layout_height="120px"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="20px"
+        android:layout_marginLeft="33px"
+        android:layout_marginTop="20px"
+        android:layout_toRightOf="@+id/cb_delete"
+        android:scaleType="centerCrop"/>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:layout_alignTop="@+id/img_avatar"
+        android:layout_toRightOf="@+id/img_avatar">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="#333333"
+            android:textSize="32px"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20px"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text=""
+            android:textColor="#999999"
+            android:textSize="24px"/>
+
+        <TextView
+            android:id="@+id/tv_author_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20px"
+            android:text=""
+            android:textColor="#999999"
+            android:textSize="24px"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_read_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20px"
+            android:layout_toRightOf="@+id/tv_author_name"
+            android:text=""
+            android:textColor="#999999"
+            android:textSize="24px"/>
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

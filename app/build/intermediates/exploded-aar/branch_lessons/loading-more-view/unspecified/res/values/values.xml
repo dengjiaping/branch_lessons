@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadingViewFinal"><attr name="loadMoreMode">
+            <flag name="click" value="0x0"/>
+            <flag name="scroll" value="0x1"/>
+        </attr><attr format="string" name="loadMoreView"/><attr format="boolean" name="noLoadMoreHideView"/></declare-styleable>
+    <string name="loading_view_click_loading_more">点击加载更多</string>
+    <string name="loading_view_loading">加载中…</string>
+    <string name="loading_view_net_error">网路异常，点击重试</string>
+    <string name="loading_view_no_more">没有更多了</string>
+</resources>

@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_default.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\color\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\subscribe_item_text_color.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\color\\subscribe_item_text_color.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\color\\design_error.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\selector_answer_attached_textcolor.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\color\\selector_answer_attached_textcolor.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\selector_hot_news.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\color\\selector_hot_news.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\selector_purchase_main_title.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\color\\selector_purchase_main_title.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\ksw_md_back_color.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.kyleduo.switchbutton\\library\\1.4.5\\res\\color\\ksw_md_back_color.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\selector_textcolor_download.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\color\\selector_textcolor_download.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\selector_textcolor.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\color\\selector_textcolor.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\selector_keda_button_textcolor.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\color\\selector_keda_button_textcolor.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\selector_keda_textcolor.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\color\\selector_keda_textcolor.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_spinner.xml"
+    }
+]

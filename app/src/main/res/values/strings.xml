@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">墨子学堂</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Code</string>
+
+    <string name="register_success">Register push success.</string>
+    <string name="register_fail">Register push fail.</string>
+    <string name="recv_passthrough_message"> Receive a passthrough message. Content is \"%1$s\"</string>
+    <string name="click_notification_message"> Clicked a notification message. Content is \"%1$s\"</string>
+    <string name="arrive_notification_message"> Arrived a notification message. Content is \"%1$s\"</string>
+    <string name="set_alias_success"> Set alias \"%1$s\" success.</string>
+    <string name="set_alias_fail"> Set alias fail for %1$s.</string>
+    <string name="unset_alias_success"> Unset alias \"%1$s\" success.</string>
+    <string name="unset_alias_fail"> Unset alias fail for %1$s.</string>
+    <string name="set_account_success"> Set account \"%1$s\" success.</string>
+    <string name="set_account_fail"> Set account fail for %1$s.</string>
+    <string name="unset_account_success"> Unset account \"%1$s\" success.</string>
+    <string name="unset_account_fail"> Unset account fail for %1$s.</string>
+    <string name="subscribe_topic_success"> Subscribe topic \"%1$s\" success.</string>
+    <string name="subscribe_topic_fail"> Subscribe topic fail for %1$s.</string>
+    <string name="unsubscribe_topic_success"> Unsubscribe topic \"%1$s\" success.</string>
+    <string name="unsubscribe_topic_fail"> Unsubscribe topic fail for %1$s.</string>
+    <string name="set_accept_time_success"> Set accept time %1$s - %2$s success.</string>
+    <string name="set_accept_time_fail"> Set accept time fail for %1$s.</string>
+
+    <declare-styleable name="SwipeFlingAdapterView">
+        <attr name="SwipeFlingStyle" format="reference"/>
+        <attr name="rotation_degrees" format="float"/>
+        <attr name="min_adapter_stack" format="integer"/>
+        <attr name="max_visible" format="integer"/>
+    </declare-styleable>
+    <color name="card_background">#ffffff</color>
+    <color name="card_shadow">#10000000</color>
+    <!-- lc新加string -->
+    <string name="please_wait">请稍等...</string>
+    <string name="the_new_comment">最新评论</string>
+    <string name="invitation_code">邀请码</string>
+    <string name="message">如果你是通过好友邀请注册,可以这里填写好友的邀请码,如果没有,可以直接点击"关闭"按钮。</string>
+    <string name="input_code">请填写好友的邀请码</string>
+    <string name="commit">提交</string>
+    <string name="quick_register">极速注册</string>
+    <string name="login_pass">请输入新密码</string>
+    <string name="inout_phonenum">请输入手机号码</string>
+
+    <!-- 重置密码 -->
+    <string name="verification_code_name">手机号码验证</string>
+    <string name="interview_moz_name">墨子专访</string>
+    <string name="free_play">免费试听</string>
+    <string name="original_price">原价：199墨子币</string>
+    <string name="details">详情 >></string>
+    <string name="reward_details">奖学金详情</string>
+    <string name="profit_message">奖学金是墨子学堂为鼓励全民学习知识而设立的奖励机制。用户购买专栏并分享后墨子学堂会按分享后产生的购买情况而对分享者进行奖励。</string>
+    <string name="login_pass_register">请输入密码</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    android:id="@+id/ll_moz_fourm_details"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".information.acitivity.MozForumDetailsActivity">
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="vertical"
+        >
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:id="@+id/rl_container"
+            android:layout_width="match_parent"
+            android:layout_height="460px"
+            android:layout_below="@+id/tv_title">
+
+            <!--<com.yidiankeyan.science.view.JCVideoPlayerStandardShowTitleAfterFullscreen-->
+            <!--android:id="@+id/video_player"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_centerHorizontal="true"></com.yidiankeyan.science.view.JCVideoPlayerStandardShowTitleAfterFullscreen>-->
+
+            <fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard
+                android:id="@+id/video_player"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true">
+
+            </fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard>
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20px"
+                android:text=""
+                android:textColor="#999999"
+                android:textSize="11sp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:padding="20px"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="gone"/>
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+
+        <cn.finalteam.loadingviewfinal.ListViewFinalLoadMore
+            android:id="@+id/lv_interview_datails"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="#E2E2E2"
+            app:loadMoreMode="scroll"/>
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <include layout="@layout/item_bottom_forum"></include>
+
+</com.zhy.autolayout.AutoLinearLayout>

@@ -1,0 +1,15 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ListView
+        android:id="@+id/lv_detailsitem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/hengxiantwo"
+        android:dividerHeight="1px"
+        >
+    </ListView>
+</FrameLayout>

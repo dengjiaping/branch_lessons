@@ -1,0 +1,14 @@
+<com.zhy.autolayout.AutoFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yidiankeyan.science.information.fragment.AlbumChartsRankingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:id="@+id/lv_albcharts"
+        android:layout_width="match_parent"
+        android:dividerHeight="1px"
+        android:divider="#eeeeee"
+        android:layout_height="match_parent"></ListView>
+</com.zhy.autolayout.AutoFrameLayout>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    android:id="@+id/ll_app_with"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yidiankeyan.science.my.activity.WithdrawalsApplyActivity">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="88px"
+        android:background="@color/black"
+        >
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_return"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:paddingLeft="21px"
+            android:paddingRight="21px">
+
+            <ImageView
+                android:id="@+id/title_return"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_white_return"/>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <TextView
+            android:id="@+id/maintitle_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="160px"
+            android:layout_weight="5"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/tv_prompt"
+        android:background="@color/hengxian"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_withdrawals_shopping"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            >
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="319px"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:layout_marginTop="30px"
+                android:background="@drawable/shape_withdrawals_bg"
+                >
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_available"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="金额："
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_available_balance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/tv_available"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="45sp"
+                        android:textStyle="bold"
+                        />
+
+
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_withdraw_allow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:paddingBottom="21px"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    />
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="31px"
+                >
+
+                <View
+                    android:layout_width="6px"
+                    android:layout_height="27px"
+                    android:background="#f1312e"
+                    ></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23px"
+                    android:text="提现金额"
+                    android:textColor="@color/black_33"
+                    android:textSize="15sp"
+                    />
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="89px"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:layout_marginTop="30px"
+                android:background="@drawable/shape_withdrawals_app"
+                >
+
+                <EditText
+                    android:id="@+id/edt_apply_money"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:hint="请输入您的提现金额"
+                    android:maxEms="10"
+                    android:singleLine="true"
+                    android:textColor="#666666"
+                    android:textColorHint="@color/apply"
+                    android:textSize="14sp"
+                    />
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <TextView
+                android:id="@+id/tv_return_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:layout_marginTop="19px"
+                android:text=""
+                android:textColor="@color/main_orange"
+                android:textSize="12sp"
+                />
+
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                >
+
+                <View
+                    android:layout_width="6px"
+                    android:layout_height="27px"
+                    android:background="#f1312e"
+                    ></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23px"
+                    android:text="收付款支付宝账号"
+                    android:textColor="@color/black_33"
+                    android:textSize="15sp"
+                    />
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="89px"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:layout_marginTop="30px"
+                android:background="@drawable/shape_withdrawals_app"
+                >
+
+                <EditText
+                    android:id="@+id/edt_account_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:hint="请输入收款支付宝账号"
+                    android:textColor="#666666"
+                    android:textColorHint="@color/apply"
+                    android:textSize="14sp"
+                    />
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="89px"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:layout_marginTop="30px"
+                android:background="@drawable/shape_withdrawals_app"
+                >
+
+
+                <EditText
+                    android:id="@+id/edt_withdrawals_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:hint="请输入收款账号的真实姓名"
+                    android:maxLength="11"
+                    android:textColor="#666666"
+                    android:textColorHint="@color/apply"
+                    android:textSize="14sp"
+                    />
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <TextView
+                android:id="@+id/tv_profit_withdrawals"
+                android:layout_width="match_parent"
+                android:layout_height="89px"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:layout_marginTop="29px"
+                android:background="@drawable/select_withdrawals_is"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="确认提现"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/tv_prompt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34px"
+                android:layout_marginRight="34px"
+                android:padding="20px"
+                android:text="1.每个账号每天可申请提现1次，金额不超过1000元；\n
+2.每次提现收取的手续费由第三方支付渠道收取，一点科研不收取任何提现手续费用；\n
+3.提现审核时间约为1个工作日，具体到账时间以支付宝到账时间为准。"
+                android:textColor="@color/menu"
+                android:textSize="12sp"
+                />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </ScrollView>
+
+
+</com.zhy.autolayout.AutoLinearLayout>

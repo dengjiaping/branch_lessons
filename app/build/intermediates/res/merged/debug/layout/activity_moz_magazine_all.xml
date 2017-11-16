@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    android:id="@+id/activity_moz_magazine_all"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.yidiankeyan.science.information.acitivity.MozMagazineAllActivity">
+
+    <include layout="@layout/inc_title"></include>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/sub_column_divider"
+        ></View>
+
+    <cn.finalteam.loadingviewfinal.PtrClassicFrameLayout
+        android:id="@+id/ptr_recommend_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <cn.finalteam.loadingviewfinal.ListViewFinalLoadMore
+            android:id="@+id/lv_magazine_all"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="#E2E2E2"
+            android:dividerHeight="1px"
+            app:loadMoreMode="scroll"/>
+
+    </cn.finalteam.loadingviewfinal.PtrClassicFrameLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>

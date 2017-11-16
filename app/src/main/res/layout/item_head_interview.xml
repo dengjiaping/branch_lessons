@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    android:id="@+id/ll_head_interview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/rl_forum_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tv_interview_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26px"
+            android:layout_marginRight="26px"
+            android:layout_marginTop="22px"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text=""
+            android:textColor="@color/black_33"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tv_interview_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_interview_title"
+            android:layout_marginLeft="26px"
+            android:layout_marginTop="17px"
+            android:text=""
+            android:textColor="@color/black_33"
+            android:textSize="12dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_comment_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_interview_title"
+            android:layout_marginLeft="37px"
+            android:layout_marginRight="26px"
+            android:layout_marginTop="17px"
+            android:layout_toRightOf="@+id/tv_interview_time"
+            android:text=""
+            android:textColor="@color/black_33"
+            android:textSize="12dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_head_introduce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_interview_time"
+            android:layout_marginLeft="26px"
+            android:layout_marginRight="26px"
+            android:layout_marginTop="28px"
+            android:lineSpacingMultiplier="1.1"
+            android:text=""
+            android:textColor="@color/black_33"
+            android:textSize="14dp"
+            />
+
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_txt_click"
+            android:layout_width="172px"
+            android:layout_height="60px"
+            android:layout_below="@+id/tv_head_introduce"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60px"
+            android:background="@drawable/shape_txt_focuseds"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_width="30px"
+                android:layout_height="32px"
+                android:src="@drawable/icon_txt_img_clicks"/>
+
+            <TextView
+                android:id="@+id/tv_click_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="21px"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="14sp"/>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16px"
+            android:layout_below="@+id/ll_txt_click"
+            android:layout_marginTop="60px"
+            android:background="#f1f1f1"
+            ></View>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>

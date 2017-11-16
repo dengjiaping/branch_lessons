@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20px"
+        android:src="@drawable/icon_recomm_plays" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20px"
+        android:layout_toRightOf="@+id/img_state"
+        android:enabled="true"
+        android:gravity="center_vertical"
+        android:maxEms="18"
+        android:paddingBottom="29px"
+        android:paddingTop="29px"
+        android:singleLine="true"
+        android:text="标题行"
+        android:textColor="#808080"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20px"
+        android:layout_toRightOf="@+id/img_state"
+        android:background="#f2f2f1"></View>
+
+</com.zhy.autolayout.AutoRelativeLayout>

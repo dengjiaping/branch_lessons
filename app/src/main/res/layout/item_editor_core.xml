@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="20px"
+        >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black_33"
+            android:layout_marginLeft="4px"
+            android:layout_centerVertical="true"
+            android:text="11"
+            android:textSize="13sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/more"
+            android:visibility="gone"
+            android:layout_marginRight="4px"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <com.yidiankeyan.science.view.NoScrollGridView
+        android:id="@+id/listview_item_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="21px"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"/>
+
+    <TextView
+        android:id="@+id/tv_bottom_seal"
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:background="#eeeeee"
+        android:layout_below="@+id/tv_imgdes"
+        android:layout_marginTop="20px"
+        />
+</com.zhy.autolayout.AutoLinearLayout>

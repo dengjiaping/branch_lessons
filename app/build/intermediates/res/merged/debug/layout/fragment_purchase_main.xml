@@ -1,0 +1,55 @@
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.yidiankeyan.science.purchase.PurchaseMainFragment">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="96px"
+        android:background="#d33d3e">
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="292px"
+            android:layout_height="54px"
+            android:layout_centerInParent="true"
+            android:background="@drawable/shape_purchase_main_title"
+            android:orientation="horizontal"
+            android:padding="1px">
+
+            <RadioButton
+                android:id="@+id/rb_recent"
+                android:layout_width="0px"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_purchase_main_recent_bg"
+                android:button="@null"
+                android:gravity="center"
+                android:text="最近"
+                android:textColor="@color/selector_purchase_main_title" />
+
+            <RadioButton
+                android:id="@+id/rb_purchase"
+                android:layout_width="0px"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_purchase_main_puechase_bg"
+                android:button="@null"
+                android:text="已购"
+                android:textColor="@color/selector_purchase_main_title" />
+
+        </RadioGroup>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <com.zhy.autolayout.AutoFrameLayout
+        android:id="@+id/fl_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.zhy.autolayout.AutoFrameLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color><!--白色 -->
+    <color name="ivory">#FFFFF0</color><!--象牙色 -->
+    <!--亮黄色-->
+    <!--黄色 -->
+    <!--雪白色 -->
+    <!--花白色 -->
+    <!--柠檬绸色 -->
+    <!--米绸色 -->
+    <!--海贝色 -->
+    <!--淡紫红 -->
+    <!--番木色 -->
+    <!--白杏色 -->
+    <!--浅玫瑰色 -->
+    <color name="main_orange">#F1312E</color>
+    <color name="transparent">#00000000</color>
+    <color name="txt_transparent">#70000000</color>
+    <!--桔黄色 -->
+    <!--鹿皮色 -->
+    <!--纳瓦白 -->
+    <color name="transfer">#FCE300</color>
+    <!--桃色 -->
+    <!--金色 -->
+    <!--粉红色 -->
+    <!--亮粉红色-->
+    <color name="orange">#FF6600</color><!--橙色 -->
+    <!--亮肉色 -->
+    <!--暗桔黄色 -->
+    <!--珊瑚色 -->
+    <!--热粉红色 -->
+    <!--西红柿色 -->
+    <!--红橙色 -->
+    <!--深粉红色 -->
+    <!--紫红色 -->
+    <!--红紫色 -->
+    <color name="red">#FF0000</color><!--红色 -->
+    <color name="login_state">#FF5252</color>
+    <!--深粉红色 -->
+    <color name="kedaalbum">#333333</color><!--科答专辑需要变颜色-->
+    <color name="defaultcolor">#e54e4e</color>
+    <color name="defaultcolortwo">#F1312E</color>
+    <color name="keda_button_pressed">#E8E8E8</color>
+    <!--老花色 -->
+    <!--亮金黄色 -->
+    <!--亚麻色 -->
+    <!--鲜肉色 -->
+    <!--薄荷色 -->
+    <!--烟白色 -->
+    <!--米色 -->
+    <!--浅黄色 -->
+    <!--沙褐色-->
+    <!--天蓝色 -->
+    <!--蜜色 -->
+    <!--艾利斯兰 -->
+    <!--黄褐色 -->
+    <!--亮珊瑚色 -->
+    <!--苍麒麟色 -->
+    <!--紫罗兰色 -->
+    <!--暗肉色 -->
+    <!--淡紫色 -->
+    <!--亮青色 -->
+    <!--实木色 -->
+    <!--洋李色 -->
+    <!--淡灰色 -->
+    <color name="gainsboros">#ececec</color><!--浅灰色 -->
+    <color name="qianhui">#b9b9b9</color><!--浅灰-->
+    <!--暗深红色 -->
+    <!--苍紫罗兰色 -->
+    <!--金麒麟色 -->
+    <!--淡紫色 -->
+    <!--蓟色 -->
+    <!--亮灰色 -->
+    <!--亮灰色 -->
+    <!--茶色 -->
+    <!--巧可力色 -->
+    <!--秘鲁色 -->
+    <!--印第安红 -->
+    <!--中紫罗兰色 -->
+    <!--银色 -->
+    <!--暗黄褐色 -->
+    <!--褐玫瑰红 -->
+    <!--中粉紫色 -->
+    <!--暗金黄色 -->
+    <!--火砖色 -->
+    <!--粉蓝色 -->
+    <!--亮钢兰色 -->
+    <!--苍宝石绿 -->
+    <!--黄绿色 -->
+    <!--亮蓝色 -->
+    <color name="darkgray">#9A9A9A</color><!--暗灰色 -->
+    <!--褐色 -->
+    <!--赭色 -->
+    <!--暗紫色-->
+    <!--苍绿色 -->
+    <!--暗紫罗兰色 -->
+    <!--中紫色 -->
+    <!--亮绿色 -->
+    <!--暗海兰色 -->
+    <!--重褐色 -->
+    <!--暗洋红 -->
+    <!--暗红色 -->
+    <!--紫罗兰蓝色 -->
+    <!--亮天蓝色 -->
+    <!--天蓝色 -->
+    <color name="gray">#808080</color><!--灰色 -->
+    <!--橄榄色 -->
+    <!--紫色 -->
+    <!--粟色 -->
+    <!--碧绿色-->
+    <!--黄绿色 -->
+    <!--草绿色 -->
+    <!--中暗蓝色 -->
+    <!--亮蓝灰 -->
+    <!--亮蓝灰 -->
+    <!--灰石色 -->
+    <!--灰石色 -->
+    <!--深绿褐色 -->
+    <!--石蓝色 -->
+    <!--暗灰色 -->
+    <!--暗灰色 -->
+    <!--中绿色 -->
+    <!--菊兰色 -->
+    <!--军兰色 -->
+    <!--暗橄榄绿  -->
+    <!--靛青色 -->
+    <!--中绿宝石 -->
+    <!--暗灰蓝色 -->
+    <!--钢兰色 -->
+    <!--皇家蓝 -->
+    <!--青绿色 -->
+    <!--中海蓝 -->
+    <!--橙绿色 -->
+    <!--暗瓦灰色 -->
+    <!--暗瓦灰色 -->
+    <!--海绿色 -->
+    <!--森林绿 -->
+    <!--亮海蓝色 -->
+    <!--闪兰色 -->
+    <!--中灰兰色 -->
+    <!--浅绿色 -->
+    <!--青色 -->
+    <!--春绿色-->
+    <!--酸橙色 -->
+    <!--中春绿色 -->
+    <!--暗宝石绿 -->
+    <!--深天蓝色 -->
+    <!--暗青色 -->
+    <!--水鸭色 -->
+    <!--绿色 -->
+    <!--暗绿色 -->
+    <!--蓝色 -->
+    <!--中兰色 -->
+    <!--暗蓝色 -->
+    <color name="navy">#0099ff</color><!--海军色 -->
+    <color name="black">#000000</color><!--黑色 -->
+    <color name="black_111">#111111</color>
+    <color name="huihei">#3B3B3B</color><!--浅灰黑 -->
+    <color name="deepgray">#757575</color><!--深灰黑色 -->
+    <color name="heione">#525252</color>
+    <color name="comment_content">#575757</color>
+    <color name="comment_highlight">#4d6e95</color>
+    <color name="textgains">#666666</color>
+    <color name="hengxian">#d2d2d2</color>
+    <color name="hengxiantwo">#e8e8e8</color>
+    <color name="personal">#868686</color>
+    <color name="menu">#999999</color>
+    <color name="mylist">#f2f2f1</color>
+    <color name="apply">#b4b4b4</color>
+
+    <color name="myis">#c7c7c9</color>
+    <color name="about">#424242</color>
+
+    <color name="black_33">#333333</color>
+    <color name="grey_e8">#e8e8e8</color>
+    <color name="today_f6">#6f6f6f</color>
+    <color name="my_user_login">#e54e4e</color>
+    <color name="account_balance1">#f1312e</color>
+
+    <color name="sub_column_divider">#eeeeee</color>
+    <color name="subscribe_item_drag_stroke">#ffd2d2d2</color>
+    <color name="subscribe_item_drag_bg">#fff5f5f5</color>
+    <color name="subscribe_item_selected_bg">#ffffffff</color>
+    <color name="subscribe_item_selected_stroke">#ffcc3131</color>
+    <color name="subscribe_item_disabled_stroke">#ffd9d9d9</color>
+    <color name="subscribe_item_disabled_bg">#ffefefef</color>
+    <color name="subscribe_item_pressed_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_pressed_bg">#fff9f9f9</color>
+    <color name="subscribe_item_normal_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_normal_bg">#fff5f5f5</color>
+    <color name="username_hide">#D0CFCF</color>
+    <color name="item_divider_color">#F1F1F1</color>
+    <color name="text_color">#ABA7A7</color>
+    <color name="text_f9463c_color">#F9463C</color>
+
+</resources>

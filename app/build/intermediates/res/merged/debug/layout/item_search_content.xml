@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="21px">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_container"
+        cardBackgroundColor="#ffffff"
+        cardPreventCornerOverlap="true"
+        cardUseCompatPadding="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12px"
+        android:layout_marginTop="10px"
+        android:foreground="?attr/selectableItemBackground"
+        app:cardCornerRadius="0px"
+        app:cardElevation="6px"
+        app:contentPadding="4px">
+
+        <ImageView
+            android:id="@+id/img_avatars"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:scaleType="centerCrop" />
+    </android.support.v7.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/cv_container"
+        android:layout_marginLeft="21px"
+        android:layout_toRightOf="@+id/cv_container"
+        android:ellipsize="end"
+        android:maxLength="11"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="内容标题"
+        android:textColor="@color/black"
+        android:textSize="32px" />
+
+    <ImageView
+        android:id="@+id/img_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="21px"
+        android:src="@drawable/alreadydownload"
+        android:visibility="gone" />
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cv_container"
+        android:layout_marginLeft="20px"
+        android:layout_toRightOf="@+id/cv_container"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:src="@drawable/conmax"
+            android:text="阅读量" />
+
+        <TextView
+            android:id="@+id/search_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="25143">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+            android:src="@drawable/weidian"
+            android:text="点赞量" />
+
+        <TextView
+            android:id="@+id/tv_read_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="15.5万">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_data_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="21px"
+            android:gravity="center_vertical"
+            android:text="2013-5-7">
+
+        </TextView>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

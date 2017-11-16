@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20px"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="20px">
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:id="@+id/rl_container"
+            android:layout_width="180px"
+            android:layout_height="240px"
+            android:layout_marginLeft="29px"
+            android:descendantFocusability="blocksDescendants">
+
+            <ImageView
+                android:id="@+id/img_author"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitXY" />
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="38px"
+                    android:layout_height="38px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10px"
+                    android:layout_marginRight="10px"
+                    android:src="@drawable/icon_hot_news_audio" />
+            </com.zhy.autolayout.AutoRelativeLayout>
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/rl_album_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16px">
+
+                <TextView
+                    android:id="@+id/txt_albumname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/img_read_head"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="qqqqq"
+                    android:textColor="@color/black_33"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/ll_editor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_album_name"
+                android:layout_marginLeft="16px"
+                android:layout_marginRight="22px"
+                android:layout_marginTop="30px"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_editor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:text="rrrr"
+                    android:textColor="#666666"
+                    android:textSize="12sp" />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/ll_personal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="26px"
+                android:layout_marginTop="20px"
+                android:gravity="bottom"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/tv_read_time"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:singleLine="true"
+                    android:text="ssss"
+                    android:textColor="#A1A1A1"
+                    android:textSize="25px" />
+
+                <TextView
+                    android:id="@+id/tv_row_price"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:gravity="right"
+                    android:singleLine="true"
+                    android:text="ddd"
+                    android:textColor="#9B9999"
+                    android:textSize="25px" />
+
+                <TextView
+                    android:id="@+id/tv_price"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="28px"
+                    android:layout_weight="0.3"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="fff"
+                    android:textColor="@color/login_state"
+                    android:textSize="30px" />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/ll_content"
+        android:background="#f2f2f1"></View>
+</com.zhy.autolayout.AutoRelativeLayout>

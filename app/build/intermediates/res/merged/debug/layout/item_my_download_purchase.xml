@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="20px"
+    android:paddingTop="20px">
+
+    <CheckBox
+        android:id="@+id/cb_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="13px"
+        android:layout_marginRight="20px"
+        android:background="@drawable/selector_collect_check"
+        android:button="@null"
+        android:visibility="gone" />
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/cb_delete">
+
+        <TextView
+            android:id="@+id/tv_column_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="专栏名丨"
+            android:textColor="@color/huihei"
+            android:textSize="28px" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_column_name"
+            android:layout_toRightOf="@+id/tv_column_name"
+            android:text="期刊名"
+            android:textColor="@color/huihei"
+            android:textSize="28px" />
+
+        <TextView
+            android:id="@+id/tv_already_watch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title"
+            android:layout_marginTop="50px"
+            android:text="已观看丨"
+            android:textColor="@color/darkgray"
+            android:textSize="20px" />
+
+        <TextView
+            android:id="@+id/tv_file_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_already_watch"
+            android:layout_toRightOf="@+id/tv_already_watch"
+            android:text="32M"
+            android:textColor="@color/darkgray"
+            android:textSize="20px" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+</com.zhy.autolayout.AutoRelativeLayout>

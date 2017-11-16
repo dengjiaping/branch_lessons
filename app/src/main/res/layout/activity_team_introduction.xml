@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/ll_all"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yidiankeyan.science.information.acitivity.TeamIntroductionActivity">
+
+    <include layout="@layout/inc_title"></include>
+
+    <com.yidiankeyan.science.view.JCVideoPlayerStandardShowTitleAfterFullscreen
+        android:id="@+id/video_player"
+        android:layout_width="match_parent"
+        android:layout_height="460px"></com.yidiankeyan.science.view.JCVideoPlayerStandardShowTitleAfterFullscreen>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_team_dec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="团队介绍" />
+
+            <ImageView
+                android:id="@+id/img_cover"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20px"
+                android:layout_marginRight="20px"
+                android:scaleType="centerCrop"
+                android:layout_height="400px" />
+        </com.zhy.autolayout.AutoLinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_vote"
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:layout_marginBottom="30px"
+        android:layout_marginLeft="86px"
+        android:layout_marginRight="87px"
+        android:layout_marginTop="30px"
+        android:background="@drawable/select_login_bg"
+        android:gravity="center"
+        android:text="投票"
+        android:textColor="@color/white"
+        android:textSize="34px" />
+
+</com.zhy.autolayout.AutoLinearLayout>

@@ -1,0 +1,782 @@
+[
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_today_date_sign_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_today_date_sign_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_e54e4e_5px_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_e54e4e_5px_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_radius_30_111111.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_radius_30_111111.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_purchase.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\button_purchase.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_register_phone.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\select_register_phone.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ios_back_drawable.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\ios_back_drawable.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_click_back_tiny_selector.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\jcvideoplayer_lib\\unspecified\\res\\drawable\\jc_click_back_tiny_selector.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_radius_30_white.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_radius_30_white.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ksw_md_thumb.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.kyleduo.switchbutton\\library\\1.4.5\\res\\drawable\\ksw_md_thumb.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_seek_progress.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\jcvideoplayer_lib\\unspecified\\res\\drawable\\jc_seek_progress.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_column_textview.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\selector_column_textview.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_expand_more.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\ic_expand_more.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_click_play_selector.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\jcvideoplayer_lib\\unspecified\\res\\drawable\\jc_click_play_selector.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_login_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\select_login_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_today_date.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_today_date.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_authentication_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\select_authentication_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_dialog_progress_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\jcvideoplayer_lib\\unspecified\\res\\drawable\\jc_dialog_progress_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_dialog_progress.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\jcvideoplayer_lib\\unspecified\\res\\drawable\\jc_dialog_progress.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_request_question_edit_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_request_question_edit_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_sub.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_sub.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_reset_password.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_reset_password.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_orange_pressed.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_orange_pressed.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_subscribe_item_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\my_subscribe_item_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_custom_textview.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\selector_custom_textview.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_keda_domain.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_keda_domain.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\subscribe_item_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\subscribe_item_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ios_thumb_selector.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\ios_thumb_selector.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_seek_thumb.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\jcvideoplayer_lib\\unspecified\\res\\drawable\\jc_seek_thumb.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\material_card.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\me.drakeet.materialdialog\\library\\1.3.1\\res\\drawable\\material_card.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_title_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\jcvideoplayer_lib\\unspecified\\res\\drawable\\jc_title_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sub_batchdownclick.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\sub_batchdownclick.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_radius_30_txt.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_radius_30_txt.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_ali_pay.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_ali_pay.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_check_selector.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\btn_check_selector.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_answer_top_send_enable.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_answer_top_send_enable.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_tag_focus_black.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_tag_focus_black.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_hot_news.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\select_hot_news.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_custom_shop_pop.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_custom_shop_pop.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_get_identify_code.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\selector_get_identify_code.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_moz_activity_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_moz_activity_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_purchase_main_recent_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\selector_purchase_main_recent_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_comment_submit_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\selector_comment_submit_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\today_item_frames.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\today_item_frames.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_read_shopping.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_read_shopping.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_withdrawals_on.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\select_withdrawals_on.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_read_shop.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_read_shop.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_seek_thumb_normal.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\jcvideoplayer_lib\\unspecified\\res\\drawable\\jc_seek_thumb_normal.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_register_login.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\select_register_login.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_style.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\seekbar_style.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_edit_audio.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_edit_audio.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_custom_textview_pressed.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_custom_textview_pressed.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_radius_30_e1e1e1.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_radius_30_e1e1e1.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_custom_balance_normal.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_custom_balance_normal.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_opinion_feek.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\selector_opinion_feek.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_alpha_black_2.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_alpha_black_2.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_e54e4e_stroke.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_e54e4e_stroke.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_reward_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\selector_reward_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_expand_less.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\ic_expand_less.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_comment_pressed.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_comment_pressed.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_progress.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\jcvideoplayer_lib\\unspecified\\res\\drawable\\jc_progress.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_circle.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_circle.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_lottery_prize_pressed_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_lottery_prize_pressed_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rec_frame.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\rec_frame.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_pay_cancel.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_pay_cancel.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_collect_check.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\selector_collect_check.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_purchase_main_title.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_purchase_main_title.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_toast.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_toast.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_submit_comment_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\selector_submit_comment_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_column_nrmal.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_column_nrmal.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_preview_column_content.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_preview_column_content.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selecotr_comment_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\selecotr_comment_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\animation_loading.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\ultra-pull-to-refresh\\unspecified\\res\\drawable\\animation_loading.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_rec_follow.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_rec_follow.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_register_logins.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\select_register_logins.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_subed.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_subed.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_answer_top_send.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_answer_top_send.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_home_page.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\select_home_page.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_volume_progress_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\jcvideoplayer_lib\\unspecified\\res\\drawable\\jc_volume_progress_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_flash_card.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_flash_card.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_audio_subscribe.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_audio_subscribe.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_purchase_darker.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\item_purchase_darker.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_answer_top_linearlayout_border.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_answer_top_linearlayout_border.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_load_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\dialog_load_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_today_style.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\seekbar_today_style.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_comment_submit_no_enable.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_comment_submit_no_enable.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_purchase_main_puechase_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\selector_purchase_main_puechase_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_loading.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\jcvideoplayer_lib\\unspecified\\res\\drawable\\jc_loading.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_download_state_white.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_download_state_white.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\animation_column_select.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\animation_column_select.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rectangle_login.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\rectangle_login.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\me.drakeet.materialdialog\\library\\1.3.1\\res\\drawable\\button.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_column_pressed.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_column_pressed.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_video_follow_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_video_follow_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_custom_rmb_pop.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_custom_rmb_pop.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_ic_visibility.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\drawable\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_video_length_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\jcvideoplayer_lib\\unspecified\\res\\drawable\\shape_video_length_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_tag_focus_detail.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_tag_focus_detail.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_login_state.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_login_state.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_answer_top_text_border.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_answer_top_text_border.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_recording_hint_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\ease_recording_hint_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_add_item.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_add_item.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\animation_recommend_select.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\animation_recommend_select.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_sciencehelp_button_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\selector_sciencehelp_button_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_project_pressed.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_project_pressed.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_radius_30_cacaca.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_radius_30_cacaca.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_answer_edittext_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_answer_edittext_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_audio_seekbar_thumb.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_audio_seekbar_thumb.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_my.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\button_my.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_team_vote.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_team_vote.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_lottery_prize_normal_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_lottery_prize_normal_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_count_down.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_count_down.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_e54e4e_button.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_e54e4e_button.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_project_normal.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_project_normal.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_hotnews_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\select_hotnews_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_answer_top_send_request.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\selector_answer_top_send_request.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_register_phones.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\select_register_phones.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_message.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\button_message.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_conversation_more_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_conversation_more_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_seek_thumb_pressed.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\jcvideoplayer_lib\\unspecified\\res\\drawable\\jc_seek_thumb_pressed.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_timer_check_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\selector_timer_check_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_today_date_normal_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_today_date_normal_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_answer_top_pressed.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_answer_top_pressed.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_ff5252_column_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_ff5252_column_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_click_error_selector.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\jcvideoplayer_lib\\unspecified\\res\\drawable\\jc_click_error_selector.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_withdrawals_app.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_withdrawals_app.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_answer_focused.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_answer_focused.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_save_record.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_save_record.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_attached_money.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\selector_attached_money.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\animation_eavesdropping_select.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\animation_eavesdropping_select.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_menu_ellipse.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\select_menu_ellipse.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_recoomend_audio.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_recoomend_audio.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_button_pressed.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\me.drakeet.materialdialog\\library\\1.3.1\\res\\drawable\\bg_button_pressed.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_custom_textview_normal.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_custom_textview_normal.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_imgtxt_follow_black.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_imgtxt_follow_black.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_qadetails_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\select_qadetails_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_withdrawals_is.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\select_withdrawals_is.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\material_dialog_window.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\me.drakeet.materialdialog\\library\\1.3.1\\res\\drawable\\material_dialog_window.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_information.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\button_information.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sub_gratuityclick.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\sub_gratuityclick.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\today_item_frame.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\today_item_frame.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_default_ellipse.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\select_default_ellipse.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_withdrawals_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_withdrawals_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_balance_pay.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_balance_pay.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_receive_prize_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_receive_prize_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_et_comment_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_et_comment_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tag_background.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.github.kingideayou\\tagcloudview\\1.0.2\\res\\drawable\\tag_background.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_search_border.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_search_border.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_vote_success_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_vote_success_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_download_state_black.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_download_state_black.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jc_click_pause_selector.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\jcvideoplayer_lib\\unspecified\\res\\drawable\\jc_click_pause_selector.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_wx_pay.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_wx_pay.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_txt_focuseds.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_txt_focuseds.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_e8e8e8_stroke.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_e8e8e8_stroke.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_button_normal.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\me.drakeet.materialdialog\\library\\1.3.1\\res\\drawable\\bg_button_normal.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_im_user_detail.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_im_user_detail.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_lottery_result_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_lottery_result_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\animation_lottery_horse_race_lamp.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\animation_lottery_horse_race_lamp.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_radius_30_ffffff.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\drawable\\shape_radius_30_ffffff.xml"
+    }
+]

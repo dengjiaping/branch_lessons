@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_download"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yidiankeyan.science.my.activity.MyDownloadActivity">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="81px"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/img_return"
+            android:layout_width="81px"
+            android:layout_height="81px"
+            android:layout_below="@+id/view_status_bar"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_white_return" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="我的下载"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <net.lucode.hackware.magicindicator.MagicIndicator
+        android:id="@+id/magic_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="88px" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#f2f2f2" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="0px"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:flipInterval="30" />
+</com.zhy.autolayout.AutoLinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_layout"
+    android:layout_width="wrap_content"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/item_date"
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:text="4"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/item_nongli_date"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/item_date"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:gravity="center"-->
+    <!--android:maxLines="1"-->
+    <!--android:text="初一"-->
+    <!--android:paddingBottom="3dp"-->
+    <!--android:textColor="@color/today"-->
+    <!--android:textSize="7dp"/>-->
+
+</com.zhy.autolayout.AutoRelativeLayout>

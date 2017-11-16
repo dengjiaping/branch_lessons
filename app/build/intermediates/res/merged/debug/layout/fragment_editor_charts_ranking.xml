@@ -1,0 +1,13 @@
+<com.zhy.autolayout.AutoFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yidiankeyan.science.information.fragment.EditorChartsRankingFragment">
+
+    <ListView
+        android:id="@+id/lv_editor_charts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</com.zhy.autolayout.AutoFrameLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_read_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24px"
+        android:layout_marginRight="24px"
+        android:layout_marginTop="40px"
+        android:src="@drawable/icon_no_read" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:layout_toRightOf="@+id/img_read_state"
+        android:text="第195期 大国难题"
+        android:textColor="@color/black_33"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_title"
+        android:layout_below="@+id/tv_title"
+        android:layout_marginBottom="30px"
+        android:layout_marginRight="39px"
+        android:layout_marginTop="20px"
+        android:text="12月31号" />
+
+    <TextView
+        android:id="@+id/tv_read_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tv_date"
+        android:layout_toRightOf="@+id/tv_date"
+        android:text="12人已读" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignLeft="@+id/tv_date"
+        android:layout_below="@+id/tv_date"
+        android:background="#eeeeee"></View>
+</com.zhy.autolayout.AutoRelativeLayout>

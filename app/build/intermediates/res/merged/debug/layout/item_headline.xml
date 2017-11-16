@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:paddingBottom="21px"
+    android:paddingTop="21px">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_container"
+            cardBackgroundColor="#ffffff"
+            cardPreventCornerOverlap="true"
+            cardUseCompatPadding="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_marginLeft="21px"
+            android:layout_weight="1"
+            android:foreground="?attr/selectableItemBackground"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1dp"
+            app:contentPaddingBottom="1dp"
+            app:contentPaddingLeft="1dp"
+            app:contentPaddingRight="1dp"
+            app:contentPaddingTop="1dp">
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/ll_break"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_left"
+                    android:layout_width="76px"
+                    android:layout_height="76px"
+                    android:padding="1px"
+                    android:src="@drawable/icon_hotload_failed"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@+id/img_player"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="20px"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/audio_click_play" />
+            </com.zhy.autolayout.AutoRelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/txt_albtitle_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30px"
+            android:layout_toRightOf="@+id/cv_container"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:maxLength="11"
+            android:maxLines="1"
+            android:text="内容标题内容标题"
+            android:textColor="#333333"
+            android:textSize="28px"
+            android:visibility="gone" />
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="6px"
+            android:layout_toRightOf="@+id/cv_container">
+
+            <TextView
+                android:id="@+id/txt_albtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="20px"
+                android:layout_toLeftOf="@+id/img_download"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="top"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="内容标题"
+                android:textColor="#333333"
+                android:textSize="28px"
+                android:visibility="visible" />
+
+
+            <ImageView
+                android:id="@+id/img_download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="21px"
+                android:src="@drawable/by_download_no" />
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/cv_container"
+            android:layout_toRightOf="@+id/cv_container"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/ll_bottom_container"
+                android:layout_width="390px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30px">
+
+                    <TextView
+                        android:id="@+id/tv_read_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2154"
+                        android:textColor="@color/darkgray"
+                        android:textSize="20px" />
+
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <TextView
+                    android:id="@+id/txt_dianzan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30px"
+                    android:text="1024"
+                    android:visibility="gone"
+                    android:textColor="@color/darkgray"
+                    android:textSize="20px" />
+
+                <TextView
+                    android:id="@+id/txt_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30px"
+                    android:layout_marginRight="21px"
+                    android:text="2016-7-18"
+                    android:textColor="@color/darkgray"
+                    android:textSize="20px" />
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>

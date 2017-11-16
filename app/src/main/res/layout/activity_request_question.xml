@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_request_question"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.yidiankeyan.science.information.acitivity.RequestQuestionActivity">
+
+    <include layout="@layout/inc_title"></include>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#EEEEEE"></View>
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        android:layout_marginLeft="15px"
+        android:layout_marginRight="15px"
+        android:layout_marginTop="20px"
+        android:background="@drawable/shape_request_question_edit_bg"
+        android:gravity="top|left"
+        android:hint="回答24小时内免费向TA追问，问题字数最多50"
+        android:padding="12px"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="266px"
+        android:layout_height="89px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="62px"
+        android:background="@drawable/shape_e54e4e_button"
+        android:text="免费追问"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</com.zhy.autolayout.AutoLinearLayout>

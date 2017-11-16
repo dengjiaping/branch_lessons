@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context="com.yidiankeyan.science.my.activity.HisDataActivity">
+
+
+    <ScrollView
+        android:id="@+id/sv_personal_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        >
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/rl_head_portrait"
+                android:layout_width="match_parent"
+                android:layout_height="422px"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_bg_zoom"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/navy"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bg_navy"/>
+
+                <com.zhy.autolayout.AutoRelativeLayout
+                    android:id="@+id/ll_personal_return"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="21px"
+                    android:paddingRight="21px"
+                    android:layout_marginLeft="21px"
+                    android:layout_marginTop="21px"
+                    >
+
+                    <ImageView
+                        android:id="@+id/personal_return"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/icon_audio_return"/>
+
+
+                    <TextView
+                        android:id="@+id/tv_edit_data"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="21px"
+                        android:maxLength="16"
+                        android:text="他的资料"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        />
+
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+
+                <ImageView
+                    android:id="@+id/iv_head_portrait"
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/icon_default_avatar"/>
+
+                <ImageView
+                    android:id="@+id/icn_amera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_head_portrait"
+                    android:layout_marginLeft="-65px"
+                    android:layout_toRightOf="@+id/iv_head_portrait"
+                    android:src="@drawable/icn_amera"
+                    android:visibility="gone"/>
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="20px"
+                android:text="详细信息"
+                android:textSize="30px"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="20px"
+                android:background="#f2f2f1"
+                />
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/ll_modify_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="20px"
+                >
+
+                <TextView
+                    android:id="@+id/tv_test1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="昵称 "
+                    android:textSize="36px"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_my_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20px"
+                    android:maxLength="16"
+                    android:layout_toRightOf="@+id/tv_test1"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/heione"
+                    android:textSize="30px"
+                    />
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#f2f2f1"
+                />
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/ll_sex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="20px"
+                >
+
+                <TextView
+                    android:id="@+id/tv_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="性别 "
+                    android:textSize="36px"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_sex_select"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20px"
+                    android:layout_toRightOf="@+id/tv_sex"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/heione"
+                    android:textSize="30px"
+                    />
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#f2f2f1"
+                />
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/ll_birth_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="20px"
+                >
+
+                <TextView
+                    android:id="@+id/tv_birth_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="生日 "
+                    android:textSize="36px"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20px"
+                    android:layout_toRightOf="@+id/tv_birth_data"
+                    android:textColor="@color/heione"
+                    android:textSize="30px"
+                    />
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#f2f2f1"
+                />
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/rl_personality_autograph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="20px"
+                >
+
+                <TextView
+                    android:id="@+id/tv_personality_autograph"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusableInTouchMode="true"
+                    android:text="简介 "
+                    android:textSize="36px"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_introduce"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_personality_autograph"
+                    android:inputType="textMultiLine"
+                    android:lineSpacingExtra="2px"
+                    android:layout_toRightOf="@+id/tv_personality_autograph"
+                    android:lineSpacingMultiplier="1.1"
+                    android:text="让更多的人认识你吧"
+                    android:textColor="#b3b3b3"
+                    android:textSize="32px"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:visibility="gone"
+                    android:src="@drawable/more"
+                    />
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20px"
+                android:layout_below="@+id/iv_user_head"
+                android:background="#eeeeee"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#f2f2f1"
+                />
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/ll_education"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20px"
+                >
+
+                <TextView
+                    android:id="@+id/tv_education"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="学历 "
+                    android:textSize="36px"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_item_education"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20px"
+                    android:layout_toRightOf="@+id/tv_education"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/heione"
+                    android:textSize="30px"
+                    />
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#f2f2f1"
+                />
+
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/ll_industry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20px"
+                >
+
+                <TextView
+                    android:id="@+id/tv_industry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="行业 "
+                    android:textSize="36px"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_item_industry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20px"
+                    android:layout_toRightOf="@+id/tv_industry"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/heione"
+                    android:textSize="30px"
+                    />
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#f2f2f1"
+                />
+
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/ll_occupation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20px"
+                >
+
+                <TextView
+                    android:id="@+id/tv_occupation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="职业 "
+                    android:textSize="36px"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_item_occupation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20px"
+                    android:layout_toRightOf="@+id/tv_occupation"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/heione"
+                    android:textSize="30px"
+                    />
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#f2f2f1"
+                />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </ScrollView>
+
+</com.zhy.autolayout.AutoLinearLayout>

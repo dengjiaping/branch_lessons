@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24px"
+            android:text="内容简介"
+            android:textColor="@color/huihei"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/tv_content_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24px"
+            android:layout_marginRight="24px"
+            android:layout_marginTop="25px"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text=""
+            android:textColor="@color/textgains"
+            android:textSize="15sp"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:layout_marginTop="26px"
+        android:src="#f1f1f1"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24px"
+            android:layout_marginTop="20px"
+            android:text="主编介绍"
+            android:textColor="@color/black_33"
+            android:textSize="15sp"/>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_editor_head_portrait"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_marginLeft="24px"
+                android:src="@drawable/icon_default_avatar"/>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_author_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20px"
+                    android:textColor="@color/black_33"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/tv_fans_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="28px"
+                    android:textColor="@color/menu"
+                    android:textSize="12sp"/>
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <ImageButton
+                android:id="@+id/btn_album_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20px"
+                android:background="@null"
+                android:src="@drawable/follow"
+               />
+
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:layout_marginTop="20px"
+        android:src="@color/gainsboros"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20px"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="他的专辑"
+            android:textColor="@color/kedaalbum"
+            android:textSize="15sp"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.1px"
+        android:visibility="gone"
+        android:background="@color/gray"/>
+</com.zhy.autolayout.AutoLinearLayout>

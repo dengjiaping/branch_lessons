@@ -1,0 +1,28 @@
+<com.zhy.autolayout.AutoFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    tools:context="com.yidiankeyan.science.purchase.fragment.PurchaseFragment">
+
+    <!-- TODO: 已购 -->
+
+    <cn.finalteam.loadingviewfinal.PtrClassicFrameLayout
+        android:id="@+id/ptr_recommend_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <cn.finalteam.loadingviewfinal.GridViewFinal
+            android:id="@+id/gv_purchase"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:numColumns="2"
+            app:loadMoreMode="scroll"/>
+
+    </cn.finalteam.loadingviewfinal.PtrClassicFrameLayout>
+
+</com.zhy.autolayout.AutoFrameLayout>

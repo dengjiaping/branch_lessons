@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+    android:id="@+id/rl_all"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    tools:context="com.yidiankeyan.science.information.acitivity.ColumnDetailsActivity">
+
+    <com.yidiankeyan.science.view.ObservableScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_bottom_column"
+        android:layout_alignParentTop="true"
+        android:visibility="visible">
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/rl_column"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <ImageView
+                    android:id="@+id/img_column"
+                    android:layout_width="match_parent"
+                    android:layout_height="562px"
+                    android:background="@color/black"
+                    android:scaleType="centerCrop"/>
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="vertical"
+                    android:padding="10px"
+                    >
+                    <TextView
+                        android:id="@+id/tv_column_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:maxEms="8"
+                        android:singleLine="true"
+                        android:textSize="20sp"
+                        android:layout_alignParentBottom="true"
+                        android:textColor="@color/white"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_column_desc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:maxEms="18"
+                        android:singleLine="true"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"
+                        />
+
+                </com.zhy.autolayout.AutoLinearLayout>
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/rl_column"
+                >
+
+                <TextView
+                    android:id="@+id/tv_album_summary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_column"
+                    android:layout_marginLeft="24px"
+                    android:layout_marginTop="34px"
+                    android:text="专栏简介"
+                    android:visibility="gone"
+                    android:textColor="@color/black_33"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:id="@+id/tv_column_sub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/img_column"
+                    android:layout_marginRight="24px"
+                    android:layout_marginTop="20px"
+                    android:text="25784人订阅"
+                    android:textColor="#999999"
+                    android:textSize="12sp"/>
+
+                <!--<TextView-->
+                <!--android:id="@+id/tv_album_summary_info"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/tv_album_summary"-->
+                <!--android:layout_marginLeft="24px"-->
+                <!--android:layout_marginRight="24px"-->
+                <!--android:layout_marginTop="34px"-->
+                <!--android:text="的考虑非高房价的萨达是跌太热IT加热体加热机股份的股份的"-->
+                <!--android:textColor="#868686"-->
+                <!--android:textSize="14sp" />-->
+
+                <WebView
+                    android:id="@+id/wv_album_summary_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_column_sub">
+
+                </WebView>
+
+                <!--<TextView-->
+                <!--android:id="@+id/v_column_one"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1px"-->
+                <!--android:layout_below="@+id/tv_album_summary_info"-->
+                <!--android:layout_marginTop="34px"-->
+                <!--android:background="@color/sub_column_divider" />-->
+
+                <!--<TextView-->
+                <!--android:id="@+id/tv_learners"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/v_column_one"-->
+                <!--android:layout_marginLeft="24px"-->
+                <!--android:layout_marginTop="34px"-->
+                <!--android:text="学习人群"-->
+                <!--android:textColor="@color/black_33"-->
+                <!--android:textSize="17sp" />-->
+
+                <!--<TextView-->
+                <!--android:id="@+id/tv_learners_info"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/tv_learners"-->
+                <!--android:layout_marginLeft="24px"-->
+                <!--android:layout_marginRight="24px"-->
+                <!--android:layout_marginTop="34px"-->
+                <!--android:text="的考虑非高房价的萨达是跌太热IT加热体加热机股份的股份的"-->
+                <!--android:textColor="#868686"-->
+                <!--android:textSize="14sp" />-->
+
+                <!--<TextView-->
+                <!--android:id="@+id/v_column_two"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1px"-->
+                <!--android:layout_below="@+id/tv_learners_info"-->
+                <!--android:layout_marginTop="34px"-->
+                <!--android:background="@color/sub_column_divider" />-->
+
+                <!--<TextView-->
+                <!--android:id="@+id/tv_desc"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/v_column_two"-->
+                <!--android:layout_marginLeft="24px"-->
+                <!--android:layout_marginTop="34px"-->
+                <!--android:text="订阅说明"-->
+                <!--android:textColor="@color/black_33"-->
+                <!--android:textSize="17sp" />-->
+
+                <!--<TextView-->
+                <!--android:id="@+id/tv_desc_info"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/tv_desc"-->
+                <!--android:layout_marginLeft="24px"-->
+                <!--android:layout_marginRight="24px"-->
+                <!--android:layout_marginTop="34px"-->
+                <!--android:text="的考虑非高房价的萨达是跌太热IT加热体加热机股份的股份的"-->
+                <!--android:textColor="#868686"-->
+                <!--android:textSize="14sp" />-->
+
+                <!--<TextView-->
+                <!--android:id="@+id/v_column_three"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1px"-->
+                <!--android:layout_below="@+id/tv_desc_info"-->
+                <!--android:layout_marginTop="34px"-->
+                <!--android:background="@color/sub_column_divider" />-->
+
+
+                <!--<TextView-->
+                <!--android:id="@+id/tv_recent"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/v_column_three"-->
+                <!--android:layout_marginLeft="24px"-->
+                <!--android:layout_marginTop="34px"-->
+                <!--android:text="最新内容"-->
+                <!--android:textColor="@color/black_33"-->
+                <!--android:textSize="17sp" />-->
+
+                <!--<TextView-->
+                <!--android:id="@+id/tv_recent_info"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/tv_recent"-->
+                <!--android:layout_marginLeft="24px"-->
+                <!--android:layout_marginRight="24px"-->
+                <!--android:layout_marginTop="34px"-->
+                <!--android:text="的考虑非高房价的萨达是跌太热IT加热体加热机股份的股份的"-->
+                <!--android:textColor="#868686"-->
+                <!--android:textSize="14sp" />-->
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+        </com.zhy.autolayout.AutoRelativeLayout>
+    </com.yidiankeyan.science.view.ObservableScrollView>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/ll_bottom_column"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/qianhui"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_column_content_list"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/gainsboros"
+            android:gravity="center"
+            android:text="试看"
+            android:textColor="@color/main_orange"/>
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/main_orange"
+            android:gravity="center"
+            android:text="购买：¥999/年"
+            android:textColor="@color/white"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <cn.finalteam.loadingviewfinal.ListViewFinalLoadMore
+        android:id="@+id/lv_issues"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="#eeeeee"
+        android:dividerHeight="1px"
+        android:visibility="gone"
+        app:loadMoreMode="scroll"></cn.finalteam.loadingviewfinal.ListViewFinalLoadMore>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="70px">
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:id="@+id/rl_title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0"
+            android:background="@color/white"></com.zhy.autolayout.AutoRelativeLayout>
+
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_return"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:paddingLeft="21px"
+            android:paddingRight="21px">
+
+            <ImageView
+                android:id="@+id/title_return"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/receive_prize_return"/>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_audio_more"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:paddingLeft="21px"
+            android:paddingRight="21px"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/img_audio_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_white_more"/>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+</com.zhy.autolayout.AutoRelativeLayout>

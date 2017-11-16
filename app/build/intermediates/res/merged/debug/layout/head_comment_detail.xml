@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_parent_avatar"
+            android:layout_width="89px"
+            android:layout_height="89px"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="20px"
+            android:scaleType="centerCrop" />
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:id="@+id/rl_container"
+            android:layout_width="match_parent"
+            android:layout_height="89px"
+            android:layout_alignBottom="@+id/img_parent_avatar"
+            android:layout_alignTop="@+id/img_parent_avatar"
+            android:layout_marginLeft="30px"
+            android:layout_toRightOf="@+id/img_parent_avatar">
+
+            <TextView
+                android:id="@+id/tv_parent_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLength="15"
+                android:singleLine="true"
+                android:text="用户名"
+                android:textColor="#949494"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_parent_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_parent_name"
+                android:layout_marginTop="10px"
+                android:text="2016-8-1  17:58"
+                android:textColor="#949494"
+                android:textSize="12sp" />
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_parent_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="32px"
+            android:layout_marginTop="10px"
+            android:layout_toLeftOf="@+id/ll_comment"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10px"
+            android:paddingTop="10px">
+
+            <TextView
+                android:id="@+id/txt_parent_comment_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="545412"
+                android:textColor="#f1312e"
+                android:textSize="22px" />
+
+            <ImageView
+                android:id="@+id/img_parent_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15px"
+                android:src="@drawable/icon_today_click_normal" />
+
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="26px"
+            android:layout_marginTop="10px"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10px"
+            android:paddingTop="10px">
+
+            <TextView
+                android:id="@+id/tv_comment_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="545412"
+                android:textColor="#f1312e"
+                android:textSize="22px" />
+
+            <ImageButton
+                android:id="@+id/img_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15px"
+                android:background="@null"
+                android:focusable="false"
+                android:src="@drawable/selecotr_comment_bg" />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <TextView
+            android:id="@id/expandable_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_container"
+            android:layout_marginLeft="28px"
+            android:layout_marginRight="28px"
+            android:layout_marginTop="20px"
+            android:textColor="#6c6c6c"
+            android:textSize="17sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_expand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_parent_comment_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-light"
+        android:maxLines="200"
+        android:paddingLeft="31px"
+        android:paddingRight="31px"
+        android:paddingTop="32px"
+        android:text="打发第三方士大夫的三个梵蒂冈梵蒂冈梵蒂冈的非官方的股份大哥发的广泛地梵蒂冈梵蒂冈梵蒂冈梵蒂冈梵蒂冈发的的非官方大哥发的分割放到更多分割梵蒂冈梵蒂冈分的高分发个梵蒂冈梵蒂冈梵蒂冈分割分割分割分割梵蒂冈梵蒂冈分的高分的梵蒂冈梵蒂冈梵蒂冈梵蒂冈梵蒂冈发的的发个梵蒂冈梵蒂冈梵蒂冈地方非官方大哥大发个梵蒂冈梵蒂冈梵蒂冈分割分割发的广泛地个放到个的非官方的个梵蒂冈梵蒂冈梵蒂冈地方梵蒂冈梵蒂冈分的高分的广泛的"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="27px"
+        android:layout_marginTop="20px"
+        android:background="#edeaea" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="98px"
+        android:gravity="center"
+        android:text="全部回复"
+        android:textColor="#323232"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#edeaea" />
+</com.zhy.autolayout.AutoLinearLayout>

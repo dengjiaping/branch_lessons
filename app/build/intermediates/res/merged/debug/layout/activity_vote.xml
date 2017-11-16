@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_all"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/inc_title"></include>
+
+    <cn.finalteam.loadingviewfinal.PtrClassicFrameLayout
+        android:id="@+id/ptr_recommend_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.yidiankeyan.science.view.LoadMoreGridView
+            android:id="@+id/gv_team"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00A7F0"
+            android:horizontalSpacing="22px"
+            android:listSelector="#00000000"
+            android:numColumns="2"
+            android:verticalSpacing="20px">
+
+        </com.yidiankeyan.science.view.LoadMoreGridView>
+    </cn.finalteam.loadingviewfinal.PtrClassicFrameLayout>
+</com.zhy.autolayout.AutoLinearLayout>

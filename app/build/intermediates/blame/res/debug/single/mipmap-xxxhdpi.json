@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_expand_more_black_12dp.png",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_expand_more_black_12dp.png"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_expand_less_black_12dp.png",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_expand_less_black_12dp.png"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    }
+]

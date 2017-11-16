@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout android:id="@+id/ll_all"
+                                       xmlns:android="http://schemas.android.com/apk/res/android"
+                                       xmlns:tools="http://schemas.android.com/tools"
+                                       android:layout_width="match_parent"
+                                       android:layout_height="match_parent"
+                                       android:background="@color/white"
+                                       android:clipToPadding="true"
+                                       android:fitsSystemWindows="true"
+                                       tools:context=".my.activity.AnswerAuthenticationActivity">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/inc_title"></include>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/title"
+        android:background="#d2d2d2"/>
+
+    <TextView
+        android:id="@+id/tv_state"
+        android:layout_width="277px"
+        android:layout_height="80px"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="243px"
+        android:background="@drawable/select_authentication_bg"
+        android:gravity="center"
+        android:text="认证中"
+        android:textColor="@color/white"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_authen_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_state"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50px"
+        android:text="您的信息已经上传,认证信息后我们将及时向您提醒"
+        android:textColor="#f1312e"
+        android:textSize="26px"
+        android:visibility="gone"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17px"
+                android:layout_marginTop="17px"
+                android:textColor="@color/heione"
+                android:text="什么是V答人认证"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_below="@+id/title"
+                android:layout_marginTop="17px"
+                android:background="#d2d2d2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:layout_marginLeft="24px"
+                android:layout_marginRight="24px"
+                android:textColor="@color/qianhui"
+                android:lineSpacingExtra="5px"
+                android:lineSpacingMultiplier="1.5"
+                android:text="答人V认证是墨子对科答回答者提供的原创认证服务，符合一定条件的用户，提供信息证明，经墨子审核且认证成功后，可享有墨子提供的认证答人专属特权！"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15px"
+                android:layout_below="@+id/title"
+                android:layout_marginTop="17px"
+                android:background="#d2d2d2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17px"
+                android:layout_marginTop="17px"
+                android:textColor="@color/heione"
+                android:text="认证条件"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/gainsboros"
+                android:layout_marginTop="20px"
+                android:padding="17px"
+                android:textColor="@color/red"
+                android:text="必填信息"/>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/ll_modify_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tv_test1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="真实姓名："
+                    android:textColor="@color/heione"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/tv_my_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20px"
+                    android:layout_toRightOf="@+id/tv_test1"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:textSize="16sp"/>
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/hengxiantwo"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/hengxiantwo"
+
+                />
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/ll_sex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tv_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="性别："
+                    android:textColor="@color/heione"
+                    android:textSize="16sp"/>
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:id="@+id/ll_sex_select"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20px">
+
+
+                    <TextView
+                        android:id="@+id/tv_sex_male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="10px"
+                        android:gravity="center_vertical"
+                        android:text="男"
+                        android:textSize="16sp"/>
+
+                </com.zhy.autolayout.AutoLinearLayout>
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/hengxiantwo"
+
+                />
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/ll_birth_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tv_birth_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="身份证号："
+                    android:textColor="@color/heione"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/tv_document_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20px"
+                    android:layout_toRightOf="@+id/tv_birth_data"
+                    android:background="@null"
+                    android:digits="0123456789xyzXYZ"
+                    android:gravity="center_vertical"
+                    android:maxLength="18"
+                    android:textSize="16sp"/>
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20px"
+                android:layout_below="@+id/iv_user_head"
+                android:background="#f2f2f2"/>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.zhy.autolayout.AutoRelativeLayout
+                    android:id="@+id/rl_ep"
+                    android:layout_width="match_parent"
+                    android:layout_height="310px"
+                    android:layout_weight="1"
+                    android:background="@drawable/icon_dashed_frame">
+
+                    <ImageView
+                        android:id="@+id/img_ep"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:id="@+id/img_ep_amera"
+                        android:layout_width="100px"
+                        android:layout_height="100px"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="50px"
+                        android:src="@drawable/icn_answer_authentication"/>
+
+                    <TextView
+                        android:id="@+id/tv_ep_des"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/img_ep_amera"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="20px"
+                        android:text="工作证"
+                        android:textColor="#c7c7c9"
+                        android:textColorHint="#c7c7c9"
+                        android:textSize="16sp"/>
+
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+                <com.zhy.autolayout.AutoRelativeLayout
+                    android:id="@+id/rl_documents"
+                    android:layout_width="match_parent"
+                    android:layout_height="310px"
+                    android:layout_weight="1"
+                    android:background="@drawable/icon_dashed_frame">
+
+                    <ImageView
+                        android:id="@+id/img_document"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:id="@+id/img_amera"
+                        android:layout_width="100px"
+                        android:layout_height="100px"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="50px"
+                        android:src="@drawable/icn_answer_authentication"/>
+
+                    <TextView
+                        android:id="@+id/tv_des"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/img_amera"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="20px"
+                        android:text="身份证"
+                        android:textColor="#c7c7c9"
+                        android:textColorHint="#c7c7c9"
+                        android:textSize="16sp"/>
+
+                </com.zhy.autolayout.AutoRelativeLayout>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26px">
+
+                <TextView
+                    android:id="@+id/tv_promise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20px"
+                    android:text="*墨子承诺将对您的信息严格保密"
+                    android:textColor="@color/defaultcolor"
+                    android:textSize="13sp"/>
+
+                <Button
+                    android:id="@+id/btn_upload"
+                    android:layout_width="575px"
+                    android:layout_height="86px"
+                    android:layout_below="@+id/tv_promise"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20px"
+                    android:background="@drawable/select_login_bg"
+                    android:gravity="center"
+                    android:text="确认上传"
+                    android:textColor="@color/white"
+                    android:textSize="34px"/>
+
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20px"
+                    android:layout_below="@+id/btn_upload"
+                    ></View>
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </ScrollView>
+</com.zhy.autolayout.AutoRelativeLayout>

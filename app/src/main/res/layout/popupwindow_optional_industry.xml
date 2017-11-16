@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ll_industry_temp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_exit"
+            android:layout_centerInParent="true"
+            android:layout_margin="40dp"
+            android:layout_marginTop="-7dp"
+            android:background="@drawable/shape_custom_rmb_pop"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="其他"
+                android:textColor="@color/heione"
+                android:textSize="17sp"/>
+
+            <LinearLayout
+                android:id="@+id/add_content"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/editbackground"
+                android:orientation="horizontal"
+                >
+
+                <com.yidiankeyan.science.view.LimitEditText
+                    android:id="@+id/et_optional_industry"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:maxLength="8"
+                    android:singleLine="true"
+                    android:textSize="10sp"/>
+            </LinearLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20px"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/tv_opt_industry_finsh"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="40px"
+                    android:layout_marginRight="20px"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_orange_pressed"
+                    android:gravity="center"
+                    android:text="取消"
+                    android:textColor="@color/heione"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:id="@+id/tv_opt_industry_assign"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginRight="40px"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_orange_pressed"
+                    android:gravity="center"
+                    android:text="确定"
+                    android:textColor="@color/heione"
+                    android:textSize="17sp"/>
+
+            </com.zhy.autolayout.AutoLinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

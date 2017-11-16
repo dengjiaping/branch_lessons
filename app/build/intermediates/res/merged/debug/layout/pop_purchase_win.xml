@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f1f1f1"
+    android:orientation="vertical">
+
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20px"
+            android:text="购买确认"
+            android:textColor="@color/black_33"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="74px"
+            android:text="《墨子读书》"
+            android:textColor="@color/black_33"
+            android:textSize="15sp"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_shop_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="115px"
+            android:text="¥11.5"
+            android:textColor="@color/defaultcolortwo"
+            />
+
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_moz_money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_money_select"
+            android:layout_marginTop="180px"
+            android:orientation="horizontal"
+            >
+
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/ll_wx_money"
+                android:layout_width="0dp"
+                android:layout_height="88px"
+                android:layout_marginLeft="20px"
+                android:layout_weight="1"
+                android:background="@drawable/selector_custom_textview"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/tv_wx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="微信"
+                    android:textColor="@color/black_33"
+                    android:textSize="12sp"
+                    />
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/ll_zf_money"
+                android:layout_width="0dp"
+                android:layout_height="88px"
+                android:layout_marginLeft="20px"
+                android:layout_marginRight="20px"
+                android:layout_weight="1"
+                android:background="@drawable/selector_custom_textview"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+
+                <TextView
+                    android:id="@+id/tv_zf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="支付宝"
+                    android:textColor="@color/black_33"
+                    android:textSize="12sp"
+                    />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/ll_balance"
+                android:layout_width="0dp"
+                android:layout_height="88px"
+                android:layout_marginRight="20px"
+                android:layout_weight="1"
+                android:background="@drawable/selector_custom_textview"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/tv_balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="余额"
+                    android:textColor="@color/black_33"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/tv_balance_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5px"
+                    android:text="0墨子币"
+                    android:textColor="@color/black_33"
+                    android:textSize="12sp"
+                    />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_save_money"
+            android:layout_width="match_parent"
+            android:layout_height="88px"
+            android:layout_below="@+id/ll_moz_moneys"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="301px"
+            android:background="@drawable/shape_answer_focused"
+            android:gravity="center"
+            android:text="立即购买"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="409px"
+            android:layout_marginLeft="20px"
+            android:textColor="#999999"
+            android:textSize="12sp"
+            android:layout_marginBottom="20px"
+            android:text="*本商品购买后不支持退款和转让，请确认后购买。"
+            />
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

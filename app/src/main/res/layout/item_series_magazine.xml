@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 墨子读书 -其他书籍item -->
+<com.zhy.autolayout.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/ll_monthly_three"
+        android:layout_width="168px"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/img_albums"
+            android:layout_width="168px"
+            android:layout_height="228px"
+            android:clickable="true"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/txt_magazine_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25px"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="#333333"
+            android:textSize="15sp"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoRelativeLayout>

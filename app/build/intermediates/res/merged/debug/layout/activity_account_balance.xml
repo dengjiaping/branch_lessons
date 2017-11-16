@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    android:id="@+id/ll_account_balance"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.yidiankeyan.science.my.activity.AccountBalanceActivity">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="88px">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_return"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:paddingLeft="21px"
+            android:paddingRight="21px">
+
+            <ImageView
+                android:id="@+id/title_return"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/returns"/>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+
+        <TextView
+            android:id="@+id/maintitle_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="160px"
+            android:layout_weight="5"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#d5d5d5"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        >
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30px"
+                android:gravity="center"
+                >
+
+                <View
+                    android:layout_width="6px"
+                    android:layout_height="27px"
+                    android:background="@color/main_orange"
+                    ></View>
+
+                <TextView
+                    android:id="@+id/tv_money_select"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18px"
+                    android:text="充值金额"
+                    android:textColor="@color/black_33"
+                    android:textSize="15sp"
+                    />
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/ll_moz_money"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_money_select"
+                android:layout_marginTop="87px"
+                android:orientation="horizontal"
+                >
+
+
+                <com.zhy.autolayout.AutoRelativeLayout
+                    android:id="@+id/ll_Ten_element"
+                    android:layout_width="200px"
+                    android:layout_height="130px"
+                    android:layout_marginLeft="24px"
+                    android:background="@drawable/selector_custom_textview"
+                    android:orientation="vertical"
+                    >
+                    >
+
+                    <com.zhy.autolayout.AutoLinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv_moz_6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="6墨子币"
+                            android:textColor="@color/black_33"
+                            android:textSize="15sp"/>
+
+                        <TextView
+                            android:id="@+id/tv_moz_money_one"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="6元"
+                            android:textColor="@color/menu"
+                            android:textSize="12sp"/>
+                    </com.zhy.autolayout.AutoLinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/tv_recharge_6"
+                        android:layout_width="36px"
+                        android:layout_height="35px"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/icon_moneys_select_click"
+                        android:visibility="gone"
+                        />
+
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+
+                <com.zhy.autolayout.AutoRelativeLayout
+                    android:id="@+id/ll_Fifty_element"
+                    android:layout_width="200px"
+                    android:layout_height="130px"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/selector_custom_textview"
+                    android:orientation="vertical"
+                    >
+
+                    <com.zhy.autolayout.AutoLinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv_moz_68"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="12墨子币"
+                            android:textColor="@color/black_33"
+                            android:textSize="15sp"/>
+
+
+                        <TextView
+                            android:id="@+id/tv_moz_money_two"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="12元"
+                            android:textColor="@color/menu"
+                            android:textSize="12sp"/>
+
+                    </com.zhy.autolayout.AutoLinearLayout>
+
+                    <ImageView
+                        android:id="@+id/tv_recharge_68"
+                        android:layout_width="36px"
+                        android:layout_height="35px"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/icon_moneys_select_click"
+                        android:visibility="gone"
+                        />
+
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+
+                <com.zhy.autolayout.AutoRelativeLayout
+                    android:id="@+id/ll_One_hundred_element"
+                    android:layout_width="200px"
+                    android:layout_height="130px"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="24px"
+                    android:background="@drawable/selector_custom_textview"
+                    android:orientation="vertical">
+
+                    <com.zhy.autolayout.AutoLinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv_moz_128"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="50墨子币"
+                            android:textColor="@color/black_33"
+                            android:textSize="15sp"/>
+
+
+                        <TextView
+                            android:id="@+id/tv_moz_money_three"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="50元"
+                            android:textColor="@color/menu"
+                            android:textSize="12sp"/>
+
+
+                    </com.zhy.autolayout.AutoLinearLayout>
+
+                    <ImageView
+                        android:id="@+id/tv_recharge_128"
+                        android:layout_width="36px"
+                        android:layout_height="35px"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/icon_moneys_select_click"
+                        android:visibility="gone"
+                        />
+
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/ll_moz_moneys"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_moz_money"
+                android:layout_marginTop="30px"
+                android:orientation="horizontal"
+                >
+
+
+                <com.zhy.autolayout.AutoRelativeLayout
+                    android:id="@+id/ll_two_hundred"
+                    android:layout_width="200px"
+                    android:layout_height="130px"
+                    android:layout_marginLeft="24px"
+                    android:background="@drawable/selector_custom_textview"
+                    android:orientation="vertical">
+
+                    <com.zhy.autolayout.AutoLinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv_moz_500"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="108墨子币"
+                            android:textColor="@color/black_33"
+                            android:textSize="15sp"/>
+
+
+                        <TextView
+                            android:id="@+id/tv_moz_money_four"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="108元"
+                            android:textColor="@color/menu"
+                            android:textSize="12sp"/>
+
+                    </com.zhy.autolayout.AutoLinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/tv_recharge_500"
+                        android:layout_width="36px"
+                        android:layout_height="35px"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/icon_moneys_select_click"
+                        android:visibility="gone"
+                        />
+
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+
+                <com.zhy.autolayout.AutoRelativeLayout
+                    android:id="@+id/ll_five_hundred"
+                    android:layout_width="200px"
+                    android:layout_height="130px"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/selector_custom_textview"
+                    android:orientation="vertical"
+                    >
+
+                    <com.zhy.autolayout.AutoLinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv_moz_200"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="218墨子币"
+                            android:textColor="@color/black_33"
+                            android:textSize="15sp"/>
+
+
+                        <TextView
+                            android:id="@+id/tv_moz_money_five"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="218元"
+                            android:textColor="@color/menu"
+                            android:textSize="12sp"/>
+
+                    </com.zhy.autolayout.AutoLinearLayout>
+
+                    <ImageView
+                        android:id="@+id/tv_recharge_200"
+                        android:layout_width="36px"
+                        android:layout_height="35px"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/icon_moneys_select_click"
+                        android:visibility="gone"
+                        />
+
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+                <com.zhy.autolayout.AutoRelativeLayout
+                    android:id="@+id/ll_nine_hundred_and_eighty"
+                    android:layout_width="200px"
+                    android:layout_height="130px"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="24px"
+                    android:background="@drawable/selector_custom_textview"
+                    android:orientation="vertical"
+                    >
+
+                    <com.zhy.autolayout.AutoLinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv_moz_980"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="618墨子币"
+                            android:textColor="@color/black_33"
+                            android:textSize="15sp"/>
+
+                        <TextView
+                            android:id="@+id/tv_moz_money_six"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="618元"
+                            android:textColor="@color/menu"
+                            android:textSize="12sp"/>
+
+
+                    </com.zhy.autolayout.AutoLinearLayout>
+
+                    <ImageView
+                        android:id="@+id/tv_recharge_980"
+                        android:layout_width="36px"
+                        android:layout_height="35px"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/icon_moneys_select_click"
+                        android:visibility="gone"
+                        />
+
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/ll_balance_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_moz_moneys"
+                android:layout_marginTop="30px"
+                android:gravity="center"
+                >
+
+                <View
+                    android:layout_width="6px"
+                    android:layout_height="27px"
+                    android:background="@color/main_orange"
+                    ></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18px"
+                    android:text="支付方式"
+                    android:textColor="@color/black_33"
+                    android:textSize="15sp"
+                    />
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/ll_wx_zfb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_balance_select"
+                android:layout_marginTop="42px"
+                android:orientation="vertical"
+                >
+
+                <com.zhy.autolayout.AutoRelativeLayout
+                    android:id="@+id/rl_select_wx"
+                    android:layout_width="match_parent"
+                    android:layout_height="86px">
+
+                    <ImageView
+                        android:id="@+id/img_wx_ico"
+                        android:layout_width="60px"
+                        android:layout_height="60px"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="22px"
+                        android:src="@drawable/icon_account_balance_wx"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="21px"
+                        android:layout_toRightOf="@+id/img_wx_ico"
+                        android:text="微信"
+                        android:textColor="@color/black_33"
+                        android:textSize="14sp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/img_wx_on"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="22px"
+                        android:src="@drawable/icon_moneys_check"
+                        />
+
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#f2f2f1"
+                    ></View>
+
+                <com.zhy.autolayout.AutoRelativeLayout
+                    android:id="@+id/rl_select_zfb"
+                    android:layout_width="match_parent"
+                    android:layout_height="86px">
+
+                    <ImageView
+                        android:id="@+id/img_zfb_ico"
+                        android:layout_width="60px"
+                        android:layout_height="60px"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="22px"
+                        android:src="@drawable/icon_account_balance_zfb"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="21px"
+                        android:layout_toRightOf="@+id/img_zfb_ico"
+                        android:text="支付宝"
+                        android:textColor="@color/black_33"
+                        android:textSize="14sp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/img_zfb_on"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="22px"
+                        android:src="@drawable/icon_moneys_check"
+                        />
+
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#f2f2f1"
+                    ></View>
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <TextView
+                android:id="@+id/tv_save_money"
+                android:layout_width="match_parent"
+                android:layout_height="89px"
+                android:layout_below="@+id/ll_wx_zfb"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:layout_marginTop="100px"
+                android:background="@drawable/shape_answer_focused"
+                android:gravity="center"
+                android:text="立即充值"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/ll_account_help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="29px"
+                android:visibility="gone"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="点击“立即充值”即表示您同意 "
+                    android:textColor="#999999"
+                    android:textSize="12sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="《充值协议》"
+                    android:textColor="@color/main_orange"
+                    android:textSize="12sp"
+                    />
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+
+    </ScrollView>
+
+</com.zhy.autolayout.AutoLinearLayout>

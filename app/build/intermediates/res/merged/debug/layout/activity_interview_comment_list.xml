@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    android:id="@+id/ll_interview_comment_list"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.yidiankeyan.science.information.acitivity.InterviewCommentListActivity">
+
+    <include layout="@layout/inc_title"></include>
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        >
+
+        <cn.finalteam.loadingviewfinal.PtrClassicFrameLayout
+            android:id="@+id/ptr_recommend_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <cn.finalteam.loadingviewfinal.ListViewFinalLoadMore
+                android:id="@+id/lv_comment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="#00000000"
+                android:divider="#E2E2E2"
+                app:loadMoreMode="scroll"/>
+
+        </cn.finalteam.loadingviewfinal.PtrClassicFrameLayout>
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="98px"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/tv_cancel"
+        android:background="#EBEBEB"
+        android:padding="10px"
+        android:orientation="horizontal">
+
+        <!--<EditText-->
+            <!--android:id="@+id/et_comment"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginBottom="11px"-->
+            <!--android:layout_marginLeft="21px"-->
+            <!--android:layout_marginRight="21px"-->
+            <!--android:layout_marginTop="11px"-->
+            <!--android:layout_toLeftOf="@+id/ll_cancel"-->
+            <!--android:layout_toRightOf="@+id/img_search_icon"-->
+            <!--android:background="@drawable/shape_edit_audio"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:hint="写评论..."-->
+            <!--android:imeOptions="actionSend"-->
+            <!--android:paddingBottom="11px"-->
+            <!--android:paddingLeft="21px"-->
+            <!--android:paddingRight="21px"-->
+            <!--android:paddingTop="11px"-->
+            <!--android:singleLine="true"-->
+            <!--android:textColor="#343434"-->
+            <!--android:textColorHint="#959595"-->
+            <!--android:textSize="15sp"/>-->
+
+        <TextView
+            android:id="@+id/btn_comment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/selector_submit_comment_bg"
+            android:gravity="left|center_vertical"
+            android:hint=" 写评论..."
+            android:singleLine="true"
+            android:textSize="12sp" />
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>

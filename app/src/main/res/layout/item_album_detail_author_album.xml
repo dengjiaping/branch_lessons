@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20px">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4px"
+        >
+
+        <ImageView
+            android:id="@+id/img_avatar"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"/>
+
+         <ImageView
+            android:id="@+id/img_album_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/img_avatar"
+            android:layout_marginLeft="20px"
+            android:visibility="gone"
+            android:layout_toRightOf="@+id/img_avatar"
+            android:src="@drawable/tuwen"/>
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/img_album_type"
+            android:layout_marginLeft="20px"
+            android:layout_toRightOf="@+id/img_album_type"
+            android:text="专辑名称"
+            android:maxEms="11"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:textColor="@color/black_33"/>
+
+        <TextView
+            android:id="@+id/tv_album_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/img_avatar"
+            android:layout_below="@+id/img_album_type"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="40px"
+            android:layout_toLeftOf="@+id/img_go"
+            android:layout_toRightOf="@+id/img_avatar"
+            android:textColor="@color/menu"
+            android:gravity="bottom"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="12sp"/>
+
+        <ImageView
+            android:id="@+id/img_go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/more"/>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+</com.zhy.autolayout.AutoRelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    android:id="@+id/activity_my_update_name"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context="com.yidiankeyan.science.my.activity.MyUpdateNameActivity">
+
+
+    <include layout="@layout/inc_title"></include>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#f1f1f1"
+        ></View>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="88px">
+
+        <com.yidiankeyan.science.view.LimitEditText
+            android:id="@+id/et_set_price"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:maxLength="10"
+            android:text="昵称"
+            android:layout_marginLeft="24px"
+            android:singleLine="true"
+            android:textColor="@color/black_33"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/img_name_empty"
+            android:layout_width="28px"
+            android:layout_height="28px"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="24px"
+            android:src="@drawable/icon_my_up_empty"
+            />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#f1f1f1"
+        ></View>
+</com.zhy.autolayout.AutoLinearLayout>

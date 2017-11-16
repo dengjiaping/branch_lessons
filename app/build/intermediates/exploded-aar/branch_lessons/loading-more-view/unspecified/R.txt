@@ -1,0 +1,16 @@
+int attr loadMoreMode 0x7f010000
+int attr loadMoreView 0x7f010001
+int attr noLoadMoreHideView 0x7f010002
+int id click 0x7f040000
+int id pb_loading 0x7f040002
+int id scroll 0x7f040001
+int id tv_loading_msg 0x7f040003
+int layout loading_view_final_footer_default 0x7f020000
+int string loading_view_click_loading_more 0x7f030000
+int string loading_view_loading 0x7f030001
+int string loading_view_net_error 0x7f030002
+int string loading_view_no_more 0x7f030003
+int[] styleable LoadingViewFinal { 0x7f010000, 0x7f010001, 0x7f010002 }
+int styleable LoadingViewFinal_loadMoreMode 0
+int styleable LoadingViewFinal_loadMoreView 1
+int styleable LoadingViewFinal_noLoadMoreHideView 2

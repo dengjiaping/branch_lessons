@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="638px"
+        android:layout_height="wrap_content">
+
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_temp"
+            android:layout_width="638px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/shape_custom_rmb_pop"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="38px"
+                    android:layout_marginTop="38px"
+                    android:text="即将打赏"
+                    android:textColor="#c1bfbf"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/tv_pop_author_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="38px"
+                    android:layout_marginTop="38px"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="杨"
+                    android:textColor="#333333"
+                    android:textSize="17sp" />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/add_content"
+                android:layout_width="match_parent"
+                android:layout_height="112px"
+                android:background="#fef5f5"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="50px"
+                    android:text="金额"
+                    android:textColor="#282828"
+                    android:textSize="17sp" />
+
+                <EditText
+                    android:id="@+id/et_custom_price"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="right|center_vertical"
+                    android:hint="填写金额"
+                    android:numeric="integer"
+                    android:singleLine="true"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10px"
+                    android:layout_marginRight="50px"
+                    android:text="元"
+                    android:textColor="#282828"
+                    android:textSize="16sp" />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="60px"
+                android:background="#d3cfd0"></View>
+
+            <TextView
+                android:id="@+id/tv_assign"
+                android:layout_width="207px"
+                android:layout_height="71px"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20px"
+                android:layout_marginTop="20px"
+                android:background="@drawable/shape_orange_pressed"
+                android:gravity="center"
+                android:text="确定"
+                android:textColor="@color/defaultcolortwo"
+                android:textSize="17sp" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <ImageView
+            android:id="@+id/img_exit"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16px"
+            android:layout_marginTop="16px"
+            android:src="@drawable/exit" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+</com.zhy.autolayout.AutoLinearLayout>

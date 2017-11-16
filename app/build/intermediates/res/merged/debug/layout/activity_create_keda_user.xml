@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_create_keda_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yidiankeyan.science.information.acitivity.CreateKedaUserActivity">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/inc_title"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#e5e5e5"></View>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="168px">
+
+                <TextView
+                    android:id="@+id/tv_keda_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="50px"
+                    android:text="头像"
+                    android:textColor="#0e0e0e"
+                    android:textSize="21sp"
+                     />
+
+                <ImageView
+                    android:id="@+id/img_avatar"
+                    android:layout_width="128px"
+                    android:layout_height="128px"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="50px"
+                    android:src="@drawable/icon_default_avatar" />
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20px"
+                android:background="#e5e5e5"></View>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90px"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="50px"
+                android:paddingRight="50px">
+
+                <TextView
+                    android:layout_width="170px"
+                    android:layout_height="wrap_content"
+                    android:text="昵称"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+
+                <EditText
+                    android:id="@+id/et_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:textColor="@color/gray"
+                    android:maxLength="16"
+                    android:textSize="15sp" />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:background="#e5e5e5"></View>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90px"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="50px"
+                android:paddingRight="50px">
+
+                <TextView
+                    android:layout_width="170px"
+                    android:layout_height="wrap_content"
+                    android:text="职业身份"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+
+                <EditText
+                    android:id="@+id/et_profession"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="院士；教授；知名学者等"
+                    android:textColorHint="#b2b2b2"
+                    android:maxLength="16"
+                    android:textColor="@color/gray"
+                    android:singleLine="true"
+                    android:textSize="15sp" />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:background="#e5e5e5"></View>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/rl_personality_autograph"
+                android:layout_width="match_parent"
+                android:layout_height="90px"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="50px"
+                android:paddingRight="50px">
+
+                <TextView
+                    android:id="@+id/tv_personality_autograph"
+                    android:layout_width="170px"
+                    android:layout_height="wrap_content"
+                    android:text="简介"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+
+                <EditText
+                    android:id="@+id/et_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:visibility="gone"
+                    android:hint="让世界的人都认识你"
+                    android:textColorHint="#b2b2b2"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/tv_introduce"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/tv_personality_autograph"
+                    android:ellipsize="end"
+                    android:maxEms="15"
+                    android:singleLine="true"
+                    android:textColor="@color/gray"
+                    android:text="让世界的人都认识你"
+                    android:textSize="15sp"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/more"
+                    />
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="24px"
+                android:background="#e5e5e5"></View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:layout_marginTop="28px"
+                android:text="最多选择五个做为你的回答方向"
+                android:textColor="#303030"
+                android:textSize="18sp" />
+
+            <com.yidiankeyan.science.view.drag.adapter.MyDragGrid
+                android:id="@+id/userGridView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:layout_marginTop="44px"
+                android:gravity="center"
+                android:horizontalSpacing="10px"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="4"
+                android:scrollbars="vertical"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="30px" />
+
+            <com.yidiankeyan.science.view.drag.view.OtherGridView
+                android:id="@+id/otherGridView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:layout_marginTop="30px"
+                android:gravity="center"
+                android:horizontalSpacing="14px"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="4"
+                android:scrollbars="vertical"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="14.0px" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="24px"
+                android:layout_marginTop="32px"
+                android:background="#e5e5e5"></View>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80px"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="50px"
+                android:paddingRight="50px">
+
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="润喉费设置"
+                    android:textColor="#424242"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/et_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:digits="1234567890."
+                    android:gravity="right"
+                    android:hint="金额请输入1-1000"
+                    android:inputType="number"
+                    android:text=""
+                    android:textColor="#b4b4b4"
+                    android:textColorHint="#b4b4b4"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="墨子币"
+                    android:textColor="#545454"
+                    android:textSize="14sp" />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#e5e5e5"></View>
+
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="266px"
+                android:layout_height="90px"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30px"
+                android:background="@drawable/shape_answer_focused"
+                android:text="下一步"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                >
+
+            </View>
+        </com.zhy.autolayout.AutoLinearLayout>
+    </ScrollView>
+
+
+</com.zhy.autolayout.AutoLinearLayout>

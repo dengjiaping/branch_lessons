@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20px">
+
+    <ImageView
+        android:id="@+id/img_avatar"
+        android:layout_width="84px"
+        android:layout_height="84px"
+        android:layout_centerVertical="true" />
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20px"
+        android:layout_toRightOf="@+id/img_avatar"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_prize_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="美女抱枕"
+            android:textColor="#FDFAC9"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_prize_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8px"
+            android:text="十个工作日送达"
+            android:textColor="#D39556"
+            android:textSize="11sp" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:id="@+id/tv_receive_prize"
+        android:layout_width="149px"
+        android:layout_height="67px"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/shape_receive_prize_bg"
+        android:gravity="center"
+        android:minHeight="0px"
+        android:minWidth="0px"
+        android:padding="0px"
+        android:text="领取"
+        android:textColor="#FDFAC9"
+        android:textSize="19sp" />
+</com.zhy.autolayout.AutoRelativeLayout>

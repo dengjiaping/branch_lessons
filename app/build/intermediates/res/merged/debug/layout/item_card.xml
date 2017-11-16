@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/rl_card_center"
+        android:layout_width="640px"
+        android:layout_height="962px"
+        android:background="@drawable/material_card"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="163px"
+        >
+
+        <ImageView
+            android:id="@+id/img_card_bg"
+            android:layout_width="570px"
+            android:layout_height="700px"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:visibility="gone"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_navy"
+            />
+
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:padding="40px"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            >
+
+
+            <View
+                android:layout_width="580px"
+                android:layout_height="746px"
+                android:background="@drawable/icon_card_text_bg"
+                >
+
+            </View>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55px"
+                android:layout_marginLeft="25px"
+                android:src="@drawable/icon_top_card_img"
+                />
+
+            <TextView
+                android:id="@+id/tv_card_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="55px"
+                android:maxEms="8"
+                android:singleLine="true"
+                android:text="标题标题标题标题标题标题标题"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                />
+
+
+            <TextView
+                android:id="@+id/card_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_card_title"
+                android:layout_marginLeft="20px"
+                android:layout_marginRight="16px"
+                android:layout_marginTop="28px"
+                android:ellipsize="end"
+                android:lineSpacingExtra="10px"
+                android:maxLines="10"
+                android:text="爱和恨之间，距离有多远，天崩地裂、海枯石烂的誓言，不是笑谈。只是一杯水，从凉、到暖、到泡沫，总会四散。人，长不过执念、短不过善变。不是不爱了，而是，人未老，情已淡。爱与恨，只在一念间！"
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="20px"
+                android:layout_marginRight="24px"
+                android:layout_marginTop="60px"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/tv_card_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#ffffff"
+                    android:textSize="14px"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_card_year"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#ffffff"
+                    android:textSize="16px"
+                    android:textStyle="bold"
+                    />
+
+            </com.zhy.autolayout.AutoLinearLayout>
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_card_right"
+        android:layout_width="48px"
+        android:layout_height="910px"
+        android:src="@drawable/icon_cards_bottom"
+        android:layout_marginTop="20px"
+        android:layout_alignTop="@+id/rl_card_center"
+        android:layout_toRightOf="@+id/rl_card_center"
+        />
+</com.zhy.autolayout.AutoRelativeLayout>

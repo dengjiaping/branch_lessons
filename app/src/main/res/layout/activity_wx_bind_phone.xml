@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+    android:id="@+id/activity_wx_bind_phone"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.yidiankeyan.science.app.activity.WxBindPhoneActivity">
+
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/inc_title"></include>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/title"
+        android:background="#CCCCCC"></View>
+
+
+    <TextView
+        android:id="@+id/tv_update_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77px"
+        android:text="绑定手机号"
+        android:textColor="@color/black_33"
+        android:textSize="18sp"
+        />
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/ll_input_number"
+        android:layout_width="match_parent"
+        android:layout_height="72px"
+        android:layout_below="@+id/tv_update_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="104px"
+        android:layout_marginRight="104px"
+        android:layout_marginTop="227px"
+        >
+
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14px"
+            android:layout_weight="1"
+            android:background="@null"
+            android:digits="0123456789"
+            android:hint="请输入手机号"
+            android:maxLines="1"
+            android:inputType="phone"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/black_33"
+            android:textColorHint="@color/myis"
+            android:textSize="16sp"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/ll_input_number"
+        android:layout_marginLeft="104px"
+        android:layout_marginRight="104px"
+        android:layout_marginTop="11px"
+        android:background="#AAAAAA"
+        ></View>
+
+    <TextView
+        android:id="@+id/tv_next_reset"
+        android:layout_width="match_parent"
+        android:layout_height="72px"
+        android:layout_below="@+id/ll_input_number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="104px"
+        android:layout_marginRight="104px"
+        android:layout_marginTop="84px"
+        android:background="@drawable/shape_login_state"
+        android:gravity="center"
+        android:text="下一步"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+</com.zhy.autolayout.AutoRelativeLayout>

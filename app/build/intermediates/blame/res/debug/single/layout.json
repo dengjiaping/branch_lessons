@@ -1,0 +1,2074 @@
+[
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_audio2.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_audio2.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_moz_read_audio.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_moz_read_audio.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\jc_layout_standard.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\jcvideoplayer_lib\\unspecified\\res\\layout\\jc_layout_standard.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opinion_feedback.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_opinion_feedback.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_column_content.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_column_content.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_answer_top_detail.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_answer_top_detail.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_question_detail.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_my_question_detail.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_collection_interview.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_collection_interview.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_album_charts_ranking.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_album_charts_ranking.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_answer_top.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_answer_top.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_window_relievefail.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popup_window_relievefail.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_knowledge.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_knowledge.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_you_like.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_you_like.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_home_page.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_my_home_page.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_number_security.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_my_number_security.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_all_column.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_all_column.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_science_fm.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_science_fm.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_request_question.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_request_question.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_status_last.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\cn.lemon\\RefreshRecyclerView\\1.2.0\\res\\layout\\view_status_last.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_notice_magazine.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_notice_magazine.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_attention_answer.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_attention_answer.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_audio_album.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_audio_album.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_img_list.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\head_img_list.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_moz_activity_notes.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_moz_activity_notes.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_search_result_for_contact.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_search_result_for_contact.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_science_content.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_science_content.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_code.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_register_code.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_search_content.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_search_content.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_rec_follow.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_rec_follow.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_column_detail_issues.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\head_column_detail_issues.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_cls_audio_booked.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_cls_audio_booked.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_author_top.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_author_top.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_series_magazine.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_series_magazine.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_custom_project_modify.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_custom_project_modify.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_my_type_video.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_my_type_video.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_recommend_newsflash.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_recommend_newsflash.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_report.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popupwindow_report.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_hot_news_type_text_d.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_hot_news_type_text_d.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_data.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popupwindow_data.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_update_name.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_my_update_name.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_today_achievement.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_today_achievement.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_circle_progressbar.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\layout_circle_progressbar.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_team_introduction.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_team_introduction.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ranking.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_ranking.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_without_answer.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_without_answer.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_more_lecture.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_more_lecture.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_class_ima_txt.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_class_ima_txt.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_news_flash_share.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popupwindow_news_flash_share.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_interview_my.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_interview_my.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_reading_sort.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_reading_sort.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome_03.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_welcome_03.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_search_ablum.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_search_ablum.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_interview_comment.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_interview_comment.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_column_article.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_column_article.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_business_number.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_business_number.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_moz_magazine_all.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_moz_magazine_all.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_class_video.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_class_video.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_editor_item.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\search_editor_item.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_content_sort.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_content_sort.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_im_user_detail.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popupwindow_im_user_detail.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_album_details.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_album_details.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_science_number.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_science_number.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_img_txt.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_img_txt.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_answer_top_detail.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\head_answer_top_detail.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_notice.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_notice.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sc_num_booked.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_sc_num_booked.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_my_answer_answer.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_my_answer_answer.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_hot_news.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\head_hot_news.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_optional_occupation.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popupwindow_optional_occupation.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_information.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_information.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_scnovel.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_scnovel.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_calendar_grid.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_calendar_grid.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_collection.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_collection.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_new_content.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_new_content.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_eavesdrop_top.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_eavesdrop_top.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gridview_fm_item.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\gridview_fm_item.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ink_record.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_ink_record.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_editor.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_editor.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_the_new_today_audio.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\layout_the_new_today_audio.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popuwind_column_share.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popuwind_column_share.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_issues_for_column.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_issues_for_column.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_today_search.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\dialog_today_search.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\albumdetails_item.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\albumdetails_item.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_moz_activity_list.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_moz_activity_list.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_binding_succeed.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_binding_succeed.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_answer_album.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_answer_album.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_comment_detail.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\head_comment_detail.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_purchase_main.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_purchase_main.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_cls_txt_img_booked.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_cls_txt_img_booked.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_layout_for_video.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_layout_for_video.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_recommend.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_recommend.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_account_popup.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\title_account_popup.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\inc_bottom.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\inc_bottom.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_video_type_fragment.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_video_type_fragment.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reset_pass_word.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_reset_pass_word.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home_page.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_home_page.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_result_whole.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\search_result_whole.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_window_imgtxt_share.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popup_window_imgtxt_share.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wx_bind_phone.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_wx_bind_phone.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_batchdownload.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_batchdownload.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_today_tag.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_today_tag.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_relevamt_text.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_relevamt_text.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_brain_repair.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_brain_repair.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_purchase_main.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_purchase_main.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\jc_volume_dialog.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\jcvideoplayer_lib\\unspecified\\res\\layout\\jc_volume_dialog.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_rank_title.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_rank_title.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_test.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_magazine_all.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_magazine_all.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_my_album.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_my_album.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_editor_update.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_editor_update.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pay_top.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_pay_top.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reward_money.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_reward_money.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_my_eavesdrop.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_my_eavesdrop.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_picture_popup.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\select_picture_popup.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_layout_for_voice.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_layout_for_voice.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_article_home.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_article_home.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pager_navigator_layout.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.github.hackware1993\\MagicIndicator\\1.5.0\\res\\layout\\pager_navigator_layout.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_hot_news_type_text_a.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_hot_news_type_text_a.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_set_up.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_my_set_up.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_editor_charts_ranking.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_editor_charts_ranking.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_window_remove_binding.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popup_window_remove_binding.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_input_identifying_code.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_input_identifying_code.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_reward_record.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_reward_record.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_excerpt.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_excerpt.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_detailed_account.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_detailed_account.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_integral_rule.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_integral_rule.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome_02.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_welcome_02.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_interview_more.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_interview_more.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_purchase_tips.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popupwindow_purchase_tips.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_profitcore_popup.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\title_profitcore_popup.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_material_dialog.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\me.drakeet.materialdialog\\library\\1.3.1\\res\\layout\\layout_material_dialog.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_answer_detail.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_my_answer_detail.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_content_item.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\search_content_item.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_class_booked.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_class_booked.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_purchase.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_purchase.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_gratuity_people.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_gratuity_people.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_moz_activity_list.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\head_moz_activity_list.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_today_history_list.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_today_history_list.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_whole_album.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_whole_album.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_tag_content.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_tag_content.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_article_core.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_article_core.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_audio_draft.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_audio_draft.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_knowledge.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\head_knowledge.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_optional_industry.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popupwindow_optional_industry.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_my_question.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_my_question.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_gv_ranking.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_gv_ranking.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_single_article.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_single_article.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_newscontent.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_newscontent.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_feedbacklist.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_feedbacklist.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_custom_rmb.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popupwindow_custom_rmb.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_news_flash.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_news_flash.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_purchase_my.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_purchase_my.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_about_we.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_my_about_we.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_album_download.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_album_download.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_business_all.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_business_all.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_content_comment.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_content_comment.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\load_more.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\load_more.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recharge_agreement.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_recharge_agreement.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_audio_album.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_audio_album.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_science_novel.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_science_novel.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_sybhectcharts.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_sybhectcharts.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_moz_interview_details.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_moz_interview_details.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_wholealbum.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_wholealbum.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lottery.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_lottery.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_col_free_album.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_col_free_album.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_search_whole.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_search_whole.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_lottery.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\view_lottery.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_my_rec_focus.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_my_rec_focus.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_editor_core.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_editor_core.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_transition.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_transition.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_collection.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_my_collection.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_preview_column_content.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_preview_column_content.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_initiation_content.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_initiation_content.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tag_detail.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_tag_detail.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_play_list.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popupwindow_play_list.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gridview_main_item.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\gridview_main_item.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_phone_binding_code.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_phone_binding_code.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\audio_gridview_item.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\audio_gridview_item.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_science_recommend.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_science_recommend.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_head_forum.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_head_forum.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_all_answer.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_all_answer.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_moz_read.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_moz_read.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_download_file_content.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_download_file_content.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_update_sort.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_update_sort.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_withdrawals_apply.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_withdrawals_apply.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_lottery_result.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popupwindow_lottery_result.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_content.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_content.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_detailed_ink.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_detailed_ink.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_verification_code.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_verification_code.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_headline.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_headline.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_focus_tag.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_focus_tag.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_focus_video.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_focus_video.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_purchase_win.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\pop_purchase_win.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_album_charts.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_album_charts.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_moz_magazine_audio.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_moz_magazine_audio.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comment_details.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_comment_details.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_tag_style.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_tag_style.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cube_ptr_simple_loading.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\ultra-pull-to-refresh\\unspecified\\res\\layout\\cube_ptr_simple_loading.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_vote.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_vote.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_col_already_load.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_col_already_load.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_interview_list.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_interview_list.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_collect.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_collect.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_moz_information_all.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_moz_information_all.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_banner_moz_activity.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_banner_moz_activity.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_distribution_un.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\pop_distribution_un.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_fans.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_my_fans.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_moz_formation_all.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_moz_formation_all.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_column_details.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_column_details.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_unscramble.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_unscramble.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_red_packet.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popupwindow_red_packet.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_video.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_video.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_bottom_forum.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_bottom_forum.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_cls_audio_all.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_cls_audio_all.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_custom_loading.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\ultra-pull-to-refresh\\unspecified\\res\\layout\\layout_custom_loading.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_dialog.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_start_dialog.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recommend_web.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_recommend_web.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_moz_team.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_moz_team.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_authenticate_answer.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_authenticate_answer.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_column_all.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_column_all.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\empty_view.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\empty_view.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\home_fans_follow.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\home_fans_follow.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_science_all.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_science_all.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_check.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_check.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\calendar_gridview.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\calendar_gridview.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_class_news_content.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_class_news_content.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\inc_audio_bottom.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\inc_audio_bottom.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_today_list.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_today_list.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_hot_news_type_text_c.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_hot_news_type_text_c.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_winner_info.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_winner_info.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\inc_title.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\inc_title.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_pay.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popupwindow_pay.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_editor_heat.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_editor_heat.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_notice_type_one.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_notice_type_one.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_newest_content.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_newest_content.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ranking.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_ranking.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_purchase_listall.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_purchase_listall.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome_01.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_welcome_01.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_album_charge.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_album_charge.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_answer_top.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_answer_top.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_sex_popup.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\select_sex_popup.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_ablum_subscribe.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_ablum_subscribe.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_personal_data.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_personal_data.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_his_data.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_his_data.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_novel_newest.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_novel_newest.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_pay_top.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_pay_top.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_moz_audio.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_moz_audio.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_top__my_focus.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_top__my_focus.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_agreement.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_agreement.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_video_album.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\head_video_album.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_imagetext_audio.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_imagetext_audio.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_subscribe.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_subscribe.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_album.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_album.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_hot_news_type_text_b.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_hot_news_type_text_b.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_search_answer.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_search_answer.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_account_detailed.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_my_account_detailed.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_booked_album.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_booked_album.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_set_name.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popupwindow_set_name.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_brief_introduction.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_brief_introduction.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_moz_read_details.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_moz_read_details.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recommend_magazine.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_recommend_magazine.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_refresh_recycler.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\cn.lemon\\RefreshRecyclerView\\1.2.0\\res\\layout\\view_refresh_recycler.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_detauks.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popupwindow_detauks.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_answer.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_my_answer.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_grid_history.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_grid_history.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\jc_layout_base.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\jcvideoplayer_lib\\unspecified\\res\\layout\\jc_layout_base.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gridview_item.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\gridview_item.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_column_poster.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_column_poster.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_new_answer.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_new_answer.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_profit_core.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_profit_core.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\video_loading_progress.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\video_loading_progress.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_classall.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_classall.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_editor_charts.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_editor_charts.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_audio.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_audio.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_audio_control_list.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popupwindow_audio_control_list.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_subscribe.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_subscribe.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_search_editor.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_search_editor.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_personal_data.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_personal_data.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_subscribe.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_my_subscribe.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\subscribe_category_item.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\subscribe_category_item.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_newsflash.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_newsflash.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pay_result.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\pay_result.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_invitation_friends.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_invitation_friends.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_info_share.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popupwindow_info_share.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_bottom_interview.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_bottom_interview.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_buy_column_win.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\pop_buy_column_win.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_message_login.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_message_login.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_head_comt_list.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_head_comt_list.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cube_ptr_classic_default_header.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\ultra-pull-to-refresh\\unspecified\\res\\layout\\cube_ptr_classic_default_header.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_date_picker.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\layout_date_picker.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_feedback_item.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_feedback_item.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_question.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_question.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_search_content.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_search_content.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_moz_forum_details.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_moz_forum_details.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_news_flash_card.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_news_flash_card.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_purchase.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_purchase.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_recent_content.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_recent_content.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_audio_release.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_audio_release.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_qadetails.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_qadetails.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ranking_items.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\ranking_items.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_the_new_today_audio.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_the_new_today_audio.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_collection_graphic.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_collection_graphic.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_phone_binding.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_phone_binding.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_album_item.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\search_album_item.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\profile_content_view.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\profile_content_view.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_answer_album_detail.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_answer_album_detail.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_novel_all.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_novel_all.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_answer_album.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_answer_album.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_recent.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_recent.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_col_charge_album.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_col_charge_album.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_focus_articles.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_focus_articles.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_focus.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_focus.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_subject_charts.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_subject_charts.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_booked_album_for_science_fm.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_booked_album_for_science_fm.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_class_image.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_class_image.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_cls_txt_img_all.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_cls_txt_img_all.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_keda_eavedrop_top.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_keda_eavedrop_top.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notice_grid_item.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\notice_grid_item.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome_04.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_welcome_04.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_page.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_home_page.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_prize.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_my_prize.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_moz_activity_detail.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_moz_activity_detail.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_magazine_details.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_magazine_details.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_albcharts.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_albcharts.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_login.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_main_login.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_moz_activity.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_moz_activity.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_col_article_detail.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_col_article_detail.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_recent_answer.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_recent_answer.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_his_album.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_his_album.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_more_lecture.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_more_lecture.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_initiation.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_initiation.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_monthly_listall.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_monthly_listall.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_custom_project.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_custom_project.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_search_editor.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_search_editor.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_about_we.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_about_we.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_video_album.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_video_album.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_my_eavesdrop.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_my_eavesdrop.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_purchase_screen.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_purchase_screen.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_notice_two.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_notice_two.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_audio_play.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_audio_play.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_tag.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.github.kingideayou\\tagcloudview\\1.0.2\\res\\layout\\item_tag.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_charge_ablum.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_charge_ablum.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_class_click_item.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_class_click_item.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_download.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_my_download.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_column_vendition.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popupwindow_column_vendition.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reward_top.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_reward_top.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_album_detail_author_album.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_album_detail_author_album.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_classification.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_classification.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_tv_doman.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_tv_doman.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_download.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_download.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_recent_answer.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_recent_answer.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_subscribe_column.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_subscribe_column.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_column_article.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_column_article.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_layout_for_img.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_layout_for_img.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_my.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_my.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_share_magazine.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\pop_share_magazine.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\inc_imgtxt_bottom.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\inc_imgtxt_bottom.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_my_prize.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_my_prize.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_qr_code.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_my_qr_code.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_purchase_order.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_purchase_order.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_head_interview.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_head_interview.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_invitation_code.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\dialog_invitation_code.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_branch_history_list.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_branch_history_list.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_answer_top_detail.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_answer_top_detail.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_science_help.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_science_help.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_wx_binding_succeed.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_wx_binding_succeed.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_science_initiation.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_science_initiation.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_interview_title.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_interview_title.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_answer_details.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_answer_details.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_news_flash_card.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_news_flash_card.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_profit_detailed.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_profit_detailed.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_moz_activity_vote.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\head_moz_activity_vote.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_moz_detail.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_moz_detail.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_recommend_follow.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_my_recommend_follow.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notice_item_child_two.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\notice_item_child_two.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loading_view_final_footer_default.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\loading-more-view\\unspecified\\res\\layout\\loading_view_final_footer_default.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_all_album.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_all_album.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_card.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_card.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_column_article.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_column_article.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_whiz.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_whiz.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_item.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_item.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_bg.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\view_bg.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_moz_read.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_moz_read.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_column_audio.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_column_audio.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_number_booked.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_number_booked.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_subalbum.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popupwindow_subalbum.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_son_interview.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_son_interview.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\article_gridview_item.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\article_gridview_item.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_column_audio.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_column_audio.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_recommend_magazine.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_recommend_magazine.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_album_comment.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_album_comment.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_column_detail.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_column_detail.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\feedback_item.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\feedback_item.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_start.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_son_comment.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_son_comment.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_album.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\head_album.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_comm.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popupwindow_comm.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_download_finish.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_download_finish.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_detailed_all.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_my_detailed_all.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_account_balance.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_account_balance.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\profile_head_view.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\profile_head_view.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_information.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_information.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_my_answer.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\head_my_answer.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_excerpt_magazine.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_excerpt_magazine.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\jc_progress_dialog.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\branch_lessons\\jcvideoplayer_lib\\unspecified\\res\\layout\\jc_progress_dialog.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_photo_enlarge.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_photo_enlarge.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_purchase_recent.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_purchase_recent.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_column_introduction.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_column_introduction.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_download_subscribe.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\head_download_subscribe.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_monthly_series.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_monthly_series.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_comment_list_interview.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_comment_list_interview.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_success.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_register_success.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notice_item_child_three.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\notice_item_child_three.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_vote.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popupwindow_vote.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_balance_record.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_balance_record.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_interview_last.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_interview_last.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_follow.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_my_follow.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_hot_news_type_video_b.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_hot_news_type_video_b.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_braun.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_braun.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\my_subscribe_category_item.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\my_subscribe_category_item.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_gratuity.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_gratuity.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_download_file.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_download_file.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_record.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popupwindow_record.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_keda_user.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_create_keda_user.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_class_audio.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_class_audio.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_all_comment.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_all_comment.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_purchase_for_download.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_purchase_for_download.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_column_share.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popupwindow_column_share.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_audio_control.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_audio_control.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_video.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_video.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_column_content_list.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_column_content_list.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_hot_news_type_audio_a.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_hot_news_type_audio_a.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_red_card.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_red_card.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_answer_authentication.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_answer_authentication.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_my_rec_follow.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_my_rec_follow.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recharge_help.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_recharge_help.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_focus.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_my_focus.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_share.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\popupwindow_share.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_download_finish.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_download_finish.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_puchase_hot_rec.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_puchase_hot_rec.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_free_ablum.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_free_ablum.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about_we.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_about_we.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_class_all_ablum.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_class_all_ablum.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\profile_zoom_view.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\profile_zoom_view.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_science_fmall.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_science_fmall.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_interview_comment_list.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_interview_comment_list.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_receive_prize.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_receive_prize.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_answer_item.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\search_answer_item.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pager_navigator_layout_no_scroll.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.github.hackware1993\\MagicIndicator\\1.5.0\\res\\layout\\pager_navigator_layout_no_scroll.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_integral.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_my_integral.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_moz_interview.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_moz_interview.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alert_dialog.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\alert_dialog.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mine_album.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_mine_album.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_my_download_purchase.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_my_download_purchase.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_empty.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\activity_empty.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_editor_capacity.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_editor_capacity.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_classbooked.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_classbooked.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_grid_hot.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\item_grid_hot.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_item.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\listview_item.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\take_photo_pop.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\take_photo_pop.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_video_all.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_video_all.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pay_top_ranking.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\fragment_pay_top_ranking.xml"
+    },
+    {
+        "merged": "D:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toast.xml",
+        "source": "D:\\svnworkspacewc\\branch_lessons\\app\\src\\main\\res\\layout\\toast.xml"
+    }
+]

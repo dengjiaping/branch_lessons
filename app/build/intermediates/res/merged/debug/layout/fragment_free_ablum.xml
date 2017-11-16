@@ -1,0 +1,90 @@
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/maintitle_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="160px"
+            android:layout_weight="5"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="暂无标题"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+    <cn.finalteam.loadingviewfinal.PtrClassicFrameLayout
+        android:id="@+id/ptr_recommend_layout"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/layout_title"
+        android:layout_height="match_parent"
+        android:background="#00000000">
+
+        <cn.finalteam.loadingviewfinal.ListViewFinalLoadMore
+            android:id="@+id/lv_Sub"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:cacheColorHint="#00000000"
+            android:divider="#eeeeee"
+            android:dividerHeight="1px"
+            app:loadMoreMode="scroll" />
+
+    </cn.finalteam.loadingviewfinal.PtrClassicFrameLayout>
+
+    <!--<com.zhy.autolayout.AutoLinearLayout-->
+        <!--android:id="@+id/ll_root_footer"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/img_root_footer_bottom"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="140px"-->
+            <!--android:background="@drawable/guanggao" />-->
+
+    <!--</com.zhy.autolayout.AutoLinearLayout>-->
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/rl_free_null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/tv_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="亲，您还未订阅任何专辑呦"
+            android:textColor="@color/menu"
+            android:textSize="32px"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/tv_free_jump"
+            android:layout_width="198px"
+            android:layout_height="70px"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50px"
+            android:background="@drawable/select_login_bg"
+            android:gravity="center"
+            android:text="浏览专辑"
+            android:textColor="@color/white"
+            android:textSize="34px"
+            android:visibility="gone" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+</com.zhy.autolayout.AutoRelativeLayout>

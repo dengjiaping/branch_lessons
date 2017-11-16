@@ -1,0 +1,7 @@
+#Thu Nov 16 14:47:20 CST 2017
+base.0=D\:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+base.1=D\:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+file.0=D\:\\svnworkspacewc\\branch_lessons\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes2.dex

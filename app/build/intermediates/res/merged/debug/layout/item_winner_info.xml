@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_winner_name"
+        android:textSize="13sp"
+        android:layout_alignParentLeft="true"
+        android:textColor="#FEFEFE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_winner_phone"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="200px"
+        android:textSize="13sp"
+        android:textColor="#FEFEFE"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_prize"
+        android:layout_alignParentRight="true"
+        android:textSize="13sp"
+        android:textColor="#FEFEFE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</com.zhy.autolayout.AutoRelativeLayout>

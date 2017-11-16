@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+    android:id="@+id/activity_register_code"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yidiankeyan.science.app.activity.RegisterCodeActivity">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/inc_title"></include>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/title"
+        android:background="#CCCCCC"></View>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/ll_reset_password"
+        android:layout_width="630px"
+        android:layout_height="72px"
+        android:layout_below="@+id/line"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110px"
+        android:background="@drawable/select_menu_ellipse"
+        >
+
+        <EditText
+            android:id="@+id/edt_reset_password"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:layout_weight="1"
+            android:hint="设置登录密码"
+            android:layout_marginLeft="40px"
+            android:imeActionLabel="@string/action_sign_in_short"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="#c7c7c9"
+            android:textColorHint="#c7c7c9"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="显示"
+            android:layout_marginRight="40px"
+            android:textSize="14sp"
+            android:textColor="@color/defaultcolor"
+            />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/al_moz_number"
+        android:layout_width="630px"
+        android:layout_height="72px"
+        android:layout_below="@+id/ll_reset_password"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/select_menu_ellipse"
+        android:layout_marginTop="60px"
+        >
+
+        <EditText
+            android:id="@+id/et_moz_number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:background="@null"
+            android:hint="输入好友墨子号（选填）"
+            android:textColor="@color/myis"
+            android:textColorHint="@color/myis"
+            android:textSize="32px"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/al_register_agreement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60px"
+        android:gravity="center"
+        android:layout_below="@+id/al_moz_number"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册即表示同意"
+            android:textSize="13sp"
+            android:textColor="#b9b9b9"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="《隐私权声明》"
+            android:textSize="13sp"
+            android:textColor="@color/defaultcolor"
+            />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_next_reset"
+        android:layout_width="630px"
+        android:layout_height="72px"
+        android:layout_below="@+id/al_register_agreement"
+        android:layout_marginTop="60px"
+        android:background="@drawable/select_default_ellipse"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="完成"
+        android:textColor="@color/defaultcolor"
+        android:textSize="14sp"/>
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

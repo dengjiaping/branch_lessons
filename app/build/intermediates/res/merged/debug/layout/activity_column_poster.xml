@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_column_poster"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    tools:context="com.yidiankeyan.science.information.acitivity.ColumnPosterActivity">
+
+    <WebView
+        android:id="@+id/img_poster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </WebView>
+
+    <LinearLayout
+        android:id="@+id/ll_return"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="11dp"
+        android:paddingRight="11dp">
+
+        <ImageView
+            android:id="@+id/title_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/receive_prize_return"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_save_money"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:background="@drawable/shape_ff5252_column_bg"
+        android:gravity="center"
+        android:text="保存海报"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+</RelativeLayout>

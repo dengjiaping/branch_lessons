@@ -1,0 +1,18 @@
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yidiankeyan.science.my.fragment.BalanceRecordFragment">
+
+    <cn.finalteam.loadingviewfinal.ListViewFinalLoadMore
+        android:id="@+id/lv_balance_record"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30px"
+        android:divider="@null"
+        >
+
+    </cn.finalteam.loadingviewfinal.ListViewFinalLoadMore>
+
+</com.zhy.autolayout.AutoLinearLayout>

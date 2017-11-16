@@ -1,0 +1,19 @@
+<com.zhy.autolayout.AutoFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yidiankeyan.science.my.fragment.DownloadFinishFragment">
+
+    <cn.finalteam.loadingviewfinal.PtrClassicFrameLayout
+        android:id="@+id/ptr_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/lv_download"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#f2f2f1"
+            android:dividerHeight="1px"></ListView>
+    </cn.finalteam.loadingviewfinal.PtrClassicFrameLayout>
+</com.zhy.autolayout.AutoFrameLayout>

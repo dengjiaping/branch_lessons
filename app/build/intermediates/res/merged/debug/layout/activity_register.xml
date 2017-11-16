@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:paddingTop="64px"
+    tools:context=".app.activity.RegisterActivity">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/inc_title"></include>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/title"
+        android:background="#CCCCCC"
+        android:visibility="gone"></View>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/ll_bird"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88px"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bird"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12px"
+            android:text="@string/quick_register"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/ll_input_identifying_code"
+        android:layout_width="542px"
+        android:layout_height="80px"
+        android:layout_alignLeft="@+id/ll_input_number"
+        android:layout_alignStart="@+id/ll_input_number"
+        android:layout_below="@+id/ll_input_number"
+        android:layout_marginTop="31dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/et_input_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="@string/login_pass_register"
+            android:imeOptions="actionUnspecified"
+            android:maxLines="1"
+            android:inputType="textPassword"
+            android:numeric="integer"
+            android:singleLine="true"
+            android:textColor="@color/black_33"
+            android:textColorHint="@color/myis"
+            android:textSize="30px"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/ll_input_identifying_code"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="104px"
+        android:layout_marginRight="103px"
+        android:background="#AAAAAA"></View>
+
+    <TextView
+        android:id="@+id/tv_next"
+        android:layout_width="542px"
+        android:layout_height="80px"
+        android:layout_alignLeft="@+id/view"
+        android:layout_alignStart="@+id/view"
+        android:layout_below="@+id/view"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/select_authentication_bg"
+        android:gravity="center"
+        android:text="下一步"
+        android:textColor="@color/white"
+        android:textSize="14sp"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/ll_input_number"
+        android:layout_width="542px"
+        android:layout_height="80px"
+        android:layout_below="@+id/ll_bird"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/et_mob_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="@string/inout_phonenum"
+            android:imeOptions="actionUnspecified"
+            android:maxLines="1"
+            android:numeric="integer"
+            android:singleLine="true"
+            android:textColor="@color/black_33"
+            android:textColorHint="@color/myis"
+            android:textSize="30px"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/ll_input_number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="104px"
+        android:layout_marginRight="103px"
+        android:background="#AAAAAA"></View>
+</com.zhy.autolayout.AutoRelativeLayout>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000"
+    >
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/ll_colum_share"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="150px"
+        android:layout_marginLeft="55px"
+        android:layout_marginRight="55px"
+        android:layout_marginTop="100px"
+        android:background="@drawable/shape_radius_30_ffffff"
+        >
+
+        <TextView
+            android:id="@+id/tv_share_profit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="38px"
+            android:text="分享赚奖学金"
+            android:textColor="@color/black_33"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tv_condition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_share_profit"
+            android:layout_marginLeft="29px"
+            android:layout_marginTop="30px"
+            android:text="参与条件"
+            android:textColor="#2d2c2c"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_content_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_condition"
+            android:layout_marginLeft="29px"
+            android:layout_marginTop="20px"
+            android:text="1、购买墨子学堂的任意的专栏；"
+            android:textColor="#2d2c2c"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_content_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_content_one"
+            android:layout_marginLeft="29px"
+            android:layout_marginTop="14px"
+            android:text="2、通过微信分享已购买的专栏。"
+            android:textColor="#2d2c2c"
+            android:textSize="12sp"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_rule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_content_two"
+            android:layout_marginLeft="29px"
+            android:layout_marginTop="30px"
+            android:text="活动规则"
+            android:textColor="#2d2c2c"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/al_content_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_rule"
+            android:layout_marginLeft="29px"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="20px"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_content_six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#2d2c2c"
+                android:textSize="12sp"
+                />
+
+            <TextView
+                android:id="@+id/tv_content_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14px"
+                android:text=""
+                android:textColor="#2d2c2c"
+                android:textSize="12sp"
+                />
+
+            <TextView
+                android:id="@+id/tv_content_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14px"
+                android:text=""
+                android:textColor="#2d2c2c"
+                android:textSize="12sp"
+                />
+
+            <TextView
+                android:id="@+id/tv_content_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14px"
+                android:text=""
+                android:textColor="#2d2c2c"
+                android:textSize="12sp"
+                />
+
+            <TextView
+                android:id="@+id/tv_content_seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14px"
+                android:text=""
+                android:textColor="#2d2c2c"
+                android:textSize="12sp"
+                />
+
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <TextView
+            android:id="@+id/tv_share_method"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/al_content_list"
+            android:layout_marginLeft="29px"
+            android:layout_marginTop="20px"
+            android:text="分享方法"
+            android:textColor="#2d2c2c"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_share_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_share_method"
+            android:layout_marginLeft="29px"
+            android:layout_marginTop="20px"
+            android:text="1、登录墨子学堂后，找到已购的专栏；"
+            android:textColor="#2d2c2c"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_share_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_share_one"
+            android:layout_marginLeft="29px"
+            android:layout_marginRight="29px"
+            android:layout_marginTop="10px"
+            android:text="2、通过微信右上角的“...”按钮已购专栏“发送给朋友”或者“分享至朋友圈”。"
+            android:textColor="#2d2c2c"
+            android:textSize="12sp"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_clear"
+            android:layout_width="400px"
+            android:layout_height="72px"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="70px"
+            android:background="@drawable/shape_moz_activity_bg"
+            android:gravity="center"
+            android:text="我知道了"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20px"
+            android:text="*本活动的最终解释权归一点科研所有"
+            android:textColor="#535252"
+            android:textSize="10sp"
+            />
+
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+</com.zhy.autolayout.AutoRelativeLayout>
